@@ -3,7 +3,94 @@
  *
  * BFS reachability from owned pals, path reconstruction, multi-target consolidation.
  */
-import { breedDetail, isSpecial, getWork, } from "./engine.js";
+import { breedDetail, isSpecial, getWork, getRank, getPool, } from "./engine.js";
+// Easy-to-catch early-game pals that fill key CombiRank gaps.
+// These are common spawns available at low levels in starting areas.
+const EASY_CATCH = [
+    { name: "Lamball", locations: "Starting area", rarity: "Common" },
+    { name: "Cattiva", locations: "Starting area", rarity: "Common" },
+    { name: "Chikipi", locations: "Starting area", rarity: "Common" },
+    { name: "Foxparks", locations: "Grassy fields", rarity: "Common" },
+    { name: "Pengullet", locations: "Beaches, rivers", rarity: "Common" },
+    { name: "Teafant", locations: "Grassy fields", rarity: "Common" },
+    { name: "Lifmunk", locations: "Forests", rarity: "Common" },
+    { name: "Tanzee", locations: "Forests", rarity: "Common" },
+    { name: "Rushoar", locations: "Forests, hills", rarity: "Common" },
+    { name: "Gumoss", locations: "Forests, caves", rarity: "Common" },
+    { name: "Daedream", locations: "Nighttime anywhere", rarity: "Common" },
+    { name: "Vixy", locations: "Grassy fields", rarity: "Common" },
+    { name: "Jolthog", locations: "Grassy fields", rarity: "Common" },
+    { name: "Sparkit", locations: "Plains", rarity: "Common" },
+    { name: "Direhowl", locations: "Forests, plains", rarity: "Uncommon" },
+    { name: "Nitewing", locations: "Open fields", rarity: "Common" },
+    { name: "Eikthyrdeer", locations: "Forests", rarity: "Uncommon" },
+    { name: "Mozzarina", locations: "Grassy fields", rarity: "Common" },
+    { name: "Melpaca", locations: "Plains", rarity: "Common" },
+    { name: "Caprity", locations: "Forests", rarity: "Common" },
+    { name: "Cremis", locations: "Grassy fields", rarity: "Common" },
+    { name: "Rooby", locations: "Volcano region", rarity: "Uncommon" },
+    { name: "Tombat", locations: "Nighttime, caves", rarity: "Common" },
+    { name: "Kelpsea", locations: "Beaches", rarity: "Common" },
+    { name: "Celaray", locations: "Open fields", rarity: "Common" },
+    { name: "Hangyu", locations: "Forests, hills", rarity: "Common" },
+    { name: "Flopie", locations: "Grassy fields", rarity: "Common" },
+    { name: "Gobfin", locations: "Beaches", rarity: "Common" },
+    { name: "Galeclaw", locations: "Forests", rarity: "Common" },
+    { name: "Depresso", locations: "Caves, nighttime", rarity: "Common" },
+    { name: "Leezpunk", locations: "Caves, nighttime", rarity: "Common" },
+    { name: "Rayhound", locations: "Desert", rarity: "Uncommon" },
+    { name: "Vanwyrm", locations: "Volcano region", rarity: "Uncommon" },
+    { name: "Bushi", locations: "Volcano region", rarity: "Uncommon" },
+    { name: "Penking", locations: "Beaches (boss)", rarity: "Uncommon" },
+    { name: "Gorirat", locations: "Forests", rarity: "Uncommon" },
+    { name: "Elphidran", locations: "Mountains", rarity: "Uncommon" },
+    { name: "Surfent", locations: "Rivers, lakes", rarity: "Uncommon" },
+    { name: "Relaxaurus", locations: "Lakes", rarity: "Uncommon" },
+    { name: "Pupperai", locations: "Plains", rarity: "Common" },
+];
+const EASY_MAP = new Map(EASY_CATCH.map((e) => [e.name, e]));
+/**
+ * Find "bridge pals" — pals not currently owned that, if caught, would most
+ * increase breeding reachability. Only considers common/low-rarity pals.
+ *
+ * Returns top N suggestions ordered by how many new pals (including targets)
+ * they would make reachable.
+ */
+export function findBridgePals(owned, unreachableTargets, topN = 8) {
+    const ownedSet = new Set(owned);
+    const { depth: currentReach } = reachable(owned, 8);
+    const currentCount = Object.keys(currentReach).length;
+    const pool = getPool();
+    const candidates = pool.filter((p) => !ownedSet.has(p) && EASY_MAP.has(p));
+    const results = [];
+    for (const cand of candidates) {
+        const testOwned = [...owned, cand];
+        const { depth: newReach } = reachable(testOwned, 8);
+        const newCount = Object.keys(newReach).length;
+        const gained = newCount - currentCount;
+        // Check which unreachable targets become reachable
+        const unlocksTargets = unreachableTargets.filter((t) => !(t in currentReach) && t in newReach);
+        if (gained > 0 || unlocksTargets.length > 0) {
+            const info = EASY_MAP.get(cand);
+            results.push({
+                name: cand,
+                rank: getRank(cand) ?? 0,
+                newReachable: gained,
+                unlocksTargets,
+                rarity: info.rarity,
+                locations: info.locations,
+            });
+        }
+    }
+    // Sort by: unlocks targets first, then by new reachable count
+    results.sort((a, b) => {
+        const targetDiff = b.unlocksTargets.length - a.unlocksTargets.length;
+        if (targetDiff !== 0)
+            return targetDiff;
+        return b.newReachable - a.newReachable;
+    });
+    return results.slice(0, topN);
+}
 /**
  * BFS reachability from owned pals.
  * Returns depth, steps count, recipe, and fragile-step count per pal.
