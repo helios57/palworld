@@ -1,0 +1,3 @@
+# Palworld save extraction (PlM/Oodle-Kraken format)
+# Required only for extract_pals.py with dedicated server saves
+palooz

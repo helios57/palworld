@@ -1,0 +1,36 @@
+# Save files (personal game data)
+*.sav
+*.gvas
+*.raw
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+
+# Personal generated files
+breeding_plan.html
+breeding_plan.pdf
+breeding_paths.md
+data/optimal_paths.json
+
+# Environment
+.env
+.env.*
+
+# Test artifacts
+test-results/
+playwright-report/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

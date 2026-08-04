@@ -1,0 +1,300 @@
+Name,Paldeck,Element1,Element2,CombiRank,InGenericPool,Kindling,Watering,Planting,Generating_Electricity,Handiwork,Gathering,Lumbering,Mining,Medicine,Cooling,Transporting,Farming
+Astralym,204,,,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+Panthalus,203,Water,,20,0,0,0,0,0,0,0,0,0,0,0,0,0
+Aegidron,184,Dragon,Ground,30,1,0,0,0,0,0,0,0,8,0,0,0,0
+Shaolong,192,Dragon,Water,40,0,0,8,0,0,0,5,0,0,0,0,0,0
+Bastigor,191,Ice,,50,0,0,0,0,0,0,0,6,5,0,8,0,0
+Dandilord,194,Grass,Dark,60,0,0,0,8,0,6,5,0,0,6,0,3,0
+Jetragon,202,Dragon,,70,0,0,0,0,0,0,8,0,0,0,0,0,0
+Silvance,193,Grass,,80,0,0,0,6,0,6,4,0,0,8,0,2,0
+Hartalis,197,Neutral,,90,0,0,0,0,0,0,7,7,0,0,0,0,0
+Blazamut Ryu,137B,Dragon,Fire,100,0,6,0,0,0,0,0,0,7,0,0,0,0
+Frostallion Noct,200B,Dark,,110,0,0,0,0,0,0,7,0,0,0,0,0,0
+Orserk,187,Dragon,Electric,120,0,0,0,0,8,3,0,0,0,0,0,4,0
+Bellanoir Libero,195B,Dark,,130,0,0,0,0,0,6,0,0,0,7,0,4,0
+Eidrolon Ignis,171B,Dragon,Fire,140,0,6,0,0,0,0,0,0,0,0,0,6,0
+Frostallion,200,Ice,,150,0,0,0,0,0,0,0,0,0,0,7,0,0
+Neptilius,201,Water,,160,0,0,7,0,0,0,0,0,0,0,0,0,0
+Jormuntide Ignis,121B,Dragon,Fire,170,0,7,0,0,0,0,0,0,0,0,0,0,0
+Paladius,198,Neutral,,180,0,0,0,0,0,0,0,6,6,0,0,0,0
+Necromus,199,Dark,,190,0,0,0,0,0,0,0,6,6,0,0,0,0
+Tetroise Primo,142B,Neutral,,200,0,0,0,0,0,0,0,0,6,0,0,0,0
+Knocklem Ignis,159B,Fire,,210,0,5,0,0,0,0,0,0,7,0,0,7,0
+Lyleen Noct,186B,Dark,,220,0,0,0,0,0,5,6,0,0,7,0,0,0
+Ophydia,175,Grass,Water,230,1,0,5,7,0,0,0,0,0,0,0,0,0
+Lyleen,186,Grass,,240,0,0,0,7,0,5,6,0,0,5,0,0,0
+Dualith Noct,138B,Ground,Dark,250,0,0,0,3,0,0,3,5,6,0,0,6,0
+Knocklem,159,Ground,,260,1,0,0,0,0,0,4,0,7,0,0,7,0
+Celesdir Noct,157B,Dark,,270,0,0,0,0,0,0,4,8,0,0,0,0,0
+Solenne,182,Dark,Neutral,280,1,0,0,0,0,8,4,0,0,0,0,2,0
+Renjishi,183,Fire,,290,1,8,0,0,0,6,5,0,0,0,0,5,0
+Eidrolon,171,Dragon,Dark,300,1,0,0,0,0,0,0,0,0,0,0,6,0
+Selyne,190,Dark,Neutral,360,0,0,0,0,0,7,0,0,0,6,0,3,0
+Whalaska Ignis,151B,Ice,Fire,370,0,5,0,0,0,0,0,0,0,0,6,0,0
+Moldron Cryst,105B,Ice,Ground,380,0,0,0,0,0,0,0,0,5,0,5,0,0
+Flaracle,174,Fire,,390,1,7,0,0,0,6,0,0,0,0,0,2,0
+Xenolord,196,Dark,Dragon,400,0,0,0,0,0,0,2,0,0,0,0,0,0
+Blazamut,137,Fire,,410,1,6,0,0,0,0,0,0,7,0,0,0,0
+Azurmane,161,Electric,,420,1,0,0,0,5,0,0,0,0,0,0,0,0
+Starryon Primo,130B,Neutral,,430,0,0,0,0,0,0,7,0,0,0,0,0,0
+Elgrove Cryst,81B,Ice,,440,0,0,0,0,0,0,0,3,3,0,5,3,0
+Faleris Aqua,188B,Water,,450,0,0,6,0,0,0,0,0,0,0,0,5,0
+Pierdon Cryst,131B,Ice,,460,0,0,0,0,0,0,0,0,5,0,6,0,0
+Cryolinx Terra,132B,Ground,,470,0,0,0,0,0,2,0,6,5,0,0,4,0
+Anubis,139,Ground,,480,1,0,0,0,0,6,0,0,6,0,0,4,0
+Astegon,158,Dragon,Dark,490,1,0,0,0,0,3,0,0,7,0,0,0,0
+Faleris,188,Fire,,500,0,6,0,0,0,0,0,0,0,0,0,3,0
+Dualith,138,Ground,Grass,510,1,0,0,3,0,0,3,5,6,0,0,6,0
+Dupin,176,Fire,,520,1,7,0,0,0,5,0,0,0,4,0,2,0
+Roujay,177,Dark,,530,1,0,0,0,0,0,5,0,0,0,0,5,0
+Univolt Cryst,54B,Ice,,540,0,0,0,0,0,0,0,3,0,0,6,0,0
+Shadowbeak,189,Dark,,550,0,0,0,0,0,0,2,0,0,0,0,0,0
+Silvegis,160,Dragon,,560,1,0,0,0,0,0,0,6,0,0,0,0,0
+Celesdir,157,Neutral,,570,1,0,0,0,0,0,4,7,0,0,0,0,0
+Beakon Cryst,96B,Ice,,580,0,0,0,0,0,0,2,0,0,0,5,5,0
+Jormuntide,121,Dragon,Water,590,1,0,7,0,0,0,0,0,0,0,0,0,0
+Reptyro Cryst,129B,Ice,Ground,600,0,0,0,0,0,0,0,0,5,0,5,0,0
+Wumpo Botan,134B,Grass,,610,0,0,0,3,0,3,0,5,0,0,0,6,0
+Bellanoir,195,Dark,,620,0,0,0,0,0,5,0,0,0,5,0,4,0
+Warsect Terra,113B,Ground,,630,0,0,0,0,0,2,0,0,5,0,0,5,0
+Menasting Terra,99B,Ground,,640,0,0,0,0,0,0,0,3,6,0,0,0,0
+Sibelyx Primo,116B,Neutral,,650,0,0,0,0,0,0,0,0,0,3,0,0,4
+Whalaska,151,Ice,Water,710,1,0,5,0,0,0,0,0,0,0,6,0,0
+Ghangler Ignis,97B,Fire,Water,720,0,5,5,0,0,0,0,0,0,0,0,2,0
+Gildane,154,Ground,,730,1,0,0,0,0,0,5,0,0,0,0,0,0
+Suzaku Aqua,122B,Water,,740,0,0,6,0,0,0,0,0,0,0,0,0,0
+Moldron,105,Fire,Ground,750,1,5,0,0,0,0,0,0,5,0,0,0,0
+Mycora,179,Grass,,760,1,0,0,6,0,4,4,0,0,6,0,0,0
+Relaxaurus Lux,94B,Dragon,Electric,770,0,0,0,0,4,0,0,0,0,0,0,3,0
+Splatterina,153,Dark,,780,1,0,0,0,0,6,0,3,0,5,0,2,0
+Tetroise,142,Ground,,790,1,0,0,0,0,0,0,0,4,0,0,0,0
+Kitsun Noct,111B,Dark,,800,0,4,0,0,0,0,0,0,0,0,0,0,0
+Lapure,170,Neutral,,810,1,0,0,0,0,6,5,0,0,0,0,0,0
+Petallia Ignis,89B,Grass,Fire,820,0,4,0,0,0,3,3,0,0,4,0,2,0
+Wumpo,134,Ice,,830,1,0,0,0,0,3,0,5,0,0,5,6,0
+Bushi Noct,85B,Fire,Dark,840,0,2,0,0,0,2,1,5,0,0,0,2,0
+Prixter Lux,141B,Electric,Ground,850,0,0,0,0,3,0,2,4,0,2,0,0,0
+Frostplume,114,Ice,,860,1,0,0,0,0,0,2,0,0,0,4,0,0
+Sekhmet,140,Ground,,870,1,0,0,0,0,6,0,0,3,0,0,2,0
+Ghangler,97,Dark,Water,880,1,0,5,0,0,0,0,0,0,0,0,2,0
+Loomen,180,Dark,Fire,890,1,4,0,0,0,4,0,0,0,4,0,0,0
+Fenglope Lux,83B,Electric,,900,0,0,0,0,5,0,0,4,0,0,0,0,0
+Helzephyr Lux,80B,Dark,Electric,960,0,0,0,0,4,0,0,0,0,0,0,5,0
+Venusa,178,Dark,,970,1,0,0,0,0,6,6,0,0,5,0,2,0
+Sootseer,135,Dark,Fire,980,1,3,0,0,0,3,2,0,3,0,0,0,2
+Xenogard,146,Dragon,,990,0,0,0,0,0,0,0,0,4,0,0,0,0
+Solmora Lux,169B,Water,Electric,1000,0,0,4,0,6,0,0,0,0,0,0,0,0
+Majex,115,Dark,Fire,1010,1,4,0,0,0,5,0,0,0,3,0,2,0
+Grizzbolt,185,Electric,,1020,0,0,0,0,5,4,0,3,0,0,0,5,0
+Braloha,110,Grass,Ground,1030,1,0,0,5,0,0,5,0,3,0,0,0,0
+Cryolinx,132,Ice,,1040,1,0,0,0,0,3,0,4,0,0,4,4,0
+Ragnahawk,104,Fire,,1050,1,4,0,0,0,0,0,0,0,0,0,5,0
+Reptyro,129,Fire,Ground,1060,1,5,0,0,0,0,0,0,5,0,0,0,0
+Mammorest Cryst,87B,Ice,Ground,1070,0,0,0,0,0,0,0,5,4,0,5,0,0
+Broncherry Aqua,108B,Grass,Water,1080,0,0,5,0,0,0,0,0,0,0,0,0,0
+Relaxaurus,94,Dragon,Water,1090,1,0,3,0,0,0,0,0,0,0,0,3,0
+Polapup Terra,72B,Ice,Ground,1100,0,0,0,0,0,0,0,0,4,0,4,0,0
+Pierdon,131,Ground,,1110,1,0,0,0,0,0,0,0,5,0,0,0,0
+Menasting,99,Dark,Ground,1120,1,0,0,0,0,0,0,3,5,0,0,0,0
+Helzephyr,80,Dark,,1130,1,0,0,0,0,0,0,0,0,0,0,4,0
+Omascul,150,Dark,,1140,1,0,0,0,0,0,5,0,0,0,0,0,0
+Starryon,130,Dark,,1150,1,0,0,0,0,0,5,0,0,0,0,0,0
+Verdash,152,Grass,,1160,1,0,0,4,0,5,5,3,0,0,0,3,0
+Gildra,120,Dark,Ground,1170,1,0,0,0,0,5,0,0,0,4,0,2,0
+Wistella,181,Dark,,1180,1,0,0,0,0,6,0,0,0,6,0,1,0
+Bulldosu,156,Ground,,1190,1,0,0,0,0,0,0,0,4,0,0,3,0
+Suzaku,122,Fire,,1200,1,5,0,0,0,0,0,0,0,0,0,0,0
+Quivern,124,Dragon,,1210,1,0,0,0,0,2,3,0,4,0,0,5,0
+Azurobe Cryst,41B,Ice,Dragon,1220,0,0,0,0,0,0,0,0,0,0,4,0,0
+Nitemary,148,Dark,,1230,1,0,0,0,0,4,0,0,0,0,0,2,0
+Palumba,106,Grass,,1240,1,0,0,4,0,0,4,0,5,0,0,0,0
+Nyafia,143,Dark,,1250,1,0,0,0,0,4,4,2,0,0,0,3,0
+Icelyn,119,Ice,,1260,1,0,0,0,0,5,0,0,0,4,5,2,0
+Blazehowl Noct,112B,Fire,Dark,1270,0,5,0,0,0,0,0,3,0,0,0,0,0
+Warsect,113,Ground,Grass,1280,1,0,0,3,0,3,0,4,0,0,0,5,0
+Loupmoon Cryst,56B,Ice,,1290,0,0,0,0,0,4,0,0,0,0,4,0,0
+Quivern Botan,124B,Dragon,Grass,1300,0,0,0,5,0,2,4,0,3,0,0,4,0
+Incineram Noct,91B,Dark,,1310,0,0,0,0,0,3,0,0,4,0,0,3,0
+Nitemary Botan,148B,Grass,,1320,0,0,0,3,0,4,0,0,0,0,0,2,0
+Turtacle Terra,37B,Water,Ground,1330,0,0,2,0,0,0,0,0,3,0,0,1,0
+Mammorest,87,Grass,Ground,1340,1,0,0,4,0,0,0,4,4,0,0,0,0
+Tropicaw,173,Grass,,1350,1,0,0,5,0,0,5,0,0,0,0,0,0
+Blazehowl,112,Fire,,1360,1,5,0,0,0,0,0,3,0,0,0,0,0
+Solmora,169,Water,,1370,1,0,4,0,0,0,0,0,0,0,0,0,0
+Broncherry,108,Grass,,1380,1,0,0,5,0,0,0,0,0,0,0,0,0
+Prunelia,147,Grass,Dark,1390,1,0,0,3,0,1,2,0,0,3,0,1,0
+Dynamoff,172,Electric,,1400,1,0,0,0,6,0,3,0,0,0,0,3,0
+Leafan,90,Grass,,1410,1,0,0,3,0,3,3,0,0,0,0,2,0
+Skutlass,128,Water,,1420,1,0,4,0,0,0,1,4,0,0,0,0,0
+Vanwyrm Cryst,64B,Ice,Dark,1430,0,0,0,0,0,0,0,0,0,0,2,3,0
+Mossanda Lux,102B,Electric,,1440,0,0,0,0,4,3,0,4,0,0,0,4,0
+Shroomer Noct,118B,Grass,Dark,1450,0,0,0,3,0,3,3,2,0,0,0,0,0
+Dogen,155,Neutral,,1460,1,0,0,0,0,4,3,3,0,2,0,3,0
+Incineram,91,Fire,Dark,1470,1,3,0,0,0,2,0,0,3,0,0,2,0
+Vaelet,66,Grass,,1480,1,0,0,3,0,3,3,0,0,3,0,2,2
+Wixen Noct,78B,Fire,Dark,1490,0,4,0,0,0,4,0,0,0,0,0,2,0
+Snock Lux,163B,Electric,Ground,1500,0,0,0,0,4,0,0,0,0,0,0,0,0
+Prixter,141,Dark,Ground,1510,1,0,0,0,0,0,2,4,0,2,0,0,0
+Shroomer,118,Grass,,1520,1,0,0,3,0,2,3,2,0,0,0,0,3
+Kingpaca Cryst,21B,Ice,,1530,0,0,0,0,0,0,2,0,0,0,4,0,0
+Bakemi,168,Dark,,1540,1,0,0,0,0,3,0,0,0,4,0,2,0
+Digtoise,107,Ground,,1550,1,0,0,0,0,0,0,0,4,0,0,0,0
+Bushi,85,Fire,,1560,1,2,0,0,0,2,1,3,0,0,0,2,0
+Felbat,65,Dark,,1570,1,0,0,0,0,0,0,0,0,3,0,0,0
+Needoll Noct,100B,Dark,Grass,1580,0,0,0,3,0,0,3,0,0,0,0,1,0
+Skutlass Ignis,128B,Water,Fire,1590,0,3,2,0,0,0,2,3,0,0,0,0,0
+Rayhound Cryst,98B,Ice,,1600,0,0,0,0,0,0,0,0,0,0,3,0,0
+Smokie Cryst,149B,Dark,Ice,1610,0,0,0,0,0,0,2,0,0,0,2,0,0
+Dumud Gild,109B,Ground,Water,1620,0,0,2,0,0,0,0,0,2,0,0,1,4
+Gloopie Primo,48B,Water,Neutral,1630,0,0,2,0,0,2,0,0,0,0,0,2,0
+Elphidran Aqua,63B,Dragon,Water,1640,0,0,4,0,0,0,0,3,0,0,0,0,0
+Vanwyrm,64,Fire,Dark,1650,1,2,0,0,0,0,0,0,0,0,0,3,0
+Polapup,72,Ice,Water,1660,1,0,3,0,0,0,0,0,0,0,4,0,0
+Kitsun,111,Fire,,1670,1,3,0,0,0,0,0,0,0,0,0,0,0
+Lapiron,165,Ground,,1680,1,0,0,0,0,3,4,0,2,0,0,1,0
+Beakon,96,Electric,,1690,1,0,0,0,4,0,2,0,0,0,0,5,0
+Carnibora,136,Grass,,1700,1,0,0,6,0,4,4,0,0,0,0,2,0
+Maraith,117,Dark,,1710,1,0,0,0,0,0,4,0,4,0,0,0,0
+Petallia,89,Grass,,1720,1,0,0,4,0,3,3,0,0,4,0,2,0
+Tarantriss,71,Dark,,1730,1,0,0,0,0,3,3,0,0,2,0,2,0
+Mimog,144,Neutral,,1740,0,0,0,0,0,0,1,0,0,0,0,2,0
+Slowatt,167,Electric,,1750,1,0,0,0,3,0,0,0,0,0,0,0,0
+Smokie,149,Dark,,1760,1,0,0,0,0,0,2,0,0,0,0,0,0
+Hoodle,166,Dark,,1770,1,0,0,0,0,1,0,0,0,0,0,1,0
+Snock,163,Electric,,1780,1,0,0,0,4,0,0,0,0,0,0,0,0
+Elizabee,68,Grass,,1790,1,0,0,4,0,4,4,3,0,4,0,0,0
+Katress Ignis,79B,Dark,Fire,1800,0,3,0,0,0,3,0,0,0,3,0,2,0
+Sibelyx,116,Ice,,1810,1,0,0,0,0,0,0,0,0,3,3,0,3
+Xenovader,145,Dark,,1820,0,0,0,0,0,0,0,3,0,0,0,2,0
+Azurobe,41,Water,Dragon,1830,1,0,4,0,0,0,0,0,0,0,0,0,0
+Surfent Terra,75B,Ground,,1840,0,0,0,0,0,0,3,0,0,0,0,0,0
+Penking Lux,18B,Water,Electric,1850,0,0,2,0,3,2,0,0,3,0,0,3,0
+Croajiro Noct,9B,Water,Dark,1860,0,0,1,0,0,2,1,0,0,0,0,1,0
+Pyrin Noct,93B,Fire,Dark,1870,0,4,0,0,0,0,0,3,0,0,0,0,0
+Gorirat Terra,74B,Ground,,1880,0,0,0,0,0,2,0,0,3,0,0,3,0
+Dinossom Lux,84B,Electric,Dragon,1890,0,0,0,0,3,0,0,4,0,0,0,0,0
+Valentail,162,Neutral,,1900,1,0,0,0,0,0,2,0,0,0,0,0,0
+Dazzi Noct,92B,Dark,Electric,1910,0,0,0,0,1,1,0,0,0,1,0,2,0
+Rayhound,98,Electric,,1920,1,0,0,0,4,0,0,0,0,0,0,0,0
+Reindrix,101,Ice,,1930,1,0,0,0,0,0,0,3,0,0,3,0,0
+Caprity Noct,34B,Dark,,1940,0,0,0,2,0,0,0,0,0,0,0,0,1
+Chillet Ignis,103B,Fire,Dragon,1950,0,4,0,0,0,0,3,0,0,0,0,0,0
+Fenglope,83,Neutral,,1960,1,0,0,0,0,0,0,3,0,0,0,0,0
+Foxcicle,95,Ice,,1970,1,0,0,0,0,0,0,0,0,0,4,0,3
+Pyrin,93,Fire,,1980,1,4,0,0,0,0,0,2,0,0,0,0,0
+Lullu,125,Grass,,1990,1,0,0,3,0,3,2,0,0,3,0,0,0
+Souffline,164,Grass,,2000,1,0,0,2,0,0,0,0,0,0,0,2,0
+Lunaris,82,Neutral,,2010,1,0,0,0,0,4,2,0,0,0,0,2,0
+Elgrove,81,Grass,,2020,1,0,0,3,0,0,2,3,2,0,0,3,0
+Woolipop Terra,39B,Ground,,2030,0,0,0,0,0,0,0,0,0,0,0,0,1
+Katress,79,Dark,,2040,1,0,0,0,0,3,0,0,0,3,0,2,0
+Robinquill Terra,76B,Grass,Ground,2050,0,0,0,0,0,3,3,2,0,2,0,2,0
+Mossanda,102,Grass,,2060,1,0,0,3,0,2,0,4,0,0,0,4,0
+Penking,18,Water,Ice,2070,1,0,2,0,0,2,0,0,3,0,2,3,0
+Wixen,78,Fire,,2080,1,3,0,0,0,3,0,0,0,0,0,2,0
+Lovander,69,Dark,,2090,1,0,0,0,0,3,0,0,2,3,0,2,0
+Dinossom,84,Grass,Dragon,2100,1,0,0,3,0,0,0,3,0,0,0,0,0
+Loupmoon,56,Dark,,2110,1,0,0,0,0,2,0,0,0,0,0,0,0
+Grintale,70,Neutral,,2120,1,0,0,0,0,0,3,0,0,0,0,0,0
+Munchill,86,Ice,Water,2130,1,0,2,0,0,0,0,0,0,0,3,1,0
+Gorirat,74,Neutral,,2140,1,0,0,0,0,2,0,3,0,0,0,3,0
+Sweepa,36,Ice,,2150,1,0,0,0,0,0,2,0,0,0,3,0,0
+Dazemu,123,Ground,,2210,1,0,0,0,0,0,2,0,0,0,0,0,0
+Kingpaca,21,Neutral,,2220,1,0,0,0,0,0,2,0,0,0,0,0,0
+Yakumo,127,Neutral,,2230,1,0,0,0,0,0,2,0,0,0,0,0,0
+Finsider Ignis,88B,Water,Fire,2240,0,2,2,0,0,0,0,0,0,0,0,1,0
+Wispaw,50,Dark,,2250,1,0,0,0,0,2,0,1,0,1,0,1,0
+Robinquill,76,Grass,,2260,1,0,0,2,0,3,3,2,0,1,0,2,0
+Univolt,54,Electric,,2270,1,0,0,0,3,0,0,1,0,0,0,0,0
+Elphidran,63,Dragon,,2280,1,0,0,0,0,0,0,3,0,0,0,0,0
+Dumud,109,Ground,Water,2290,1,0,2,0,0,0,0,0,2,0,0,1,1
+Fuack Ignis,5B,Water,Fire,2300,0,2,2,0,0,1,0,0,0,0,0,1,0
+Kikit,126,Ground,,2310,1,0,0,0,0,0,0,0,1,0,0,0,0
+Arsox,58,Fire,,2320,1,3,0,0,0,0,0,2,0,0,0,0,0
+Chillet,103,Ice,Dragon,2330,1,0,0,0,0,0,1,0,0,0,2,0,0
+Tombat,52,Dark,,2340,1,0,0,0,0,0,2,0,3,0,0,2,0
+Beegarde,67,Grass,,2350,1,0,0,2,0,2,3,2,0,2,0,2,3
+Puffolt,62,Electric,,2360,1,0,0,0,2,0,0,0,0,0,0,1,0
+Cawgnito,57,Dark,,2370,1,0,0,0,0,0,0,2,0,0,0,0,1
+Celaray Lux,7B,Water,Electric,2380,0,0,1,0,2,0,0,0,0,0,0,1,0
+Snugloo,133,Ice,,2390,1,0,0,0,0,2,0,0,3,0,3,2,0
+Dazzi,92,Electric,,2400,1,0,0,0,3,2,0,0,0,0,0,2,0
+Turtacle,37,Water,,2410,1,0,2,0,0,0,0,0,1,0,0,1,0
+Needoll,100,Grass,,2420,1,0,0,3,0,0,3,0,0,0,0,1,0
+Gobfin Ignis,55B,Fire,,2430,0,2,0,0,0,2,0,0,0,0,0,1,0
+Surfent,75,Water,,2440,1,0,3,0,0,0,0,0,0,0,0,0,2
+Finsider,88,Water,,2450,1,0,2,0,0,0,0,0,0,0,0,1,0
+Ribbuny Botan,44B,Grass,,2460,0,0,0,2,0,2,2,0,0,0,0,1,0
+Kelpsea Ignis,43B,Fire,,2470,0,1,0,0,0,0,0,0,0,0,0,0,1
+Muffly,59,Ice,,2480,1,0,0,0,0,0,0,0,0,0,2,1,0
+Pengullet Lux,17B,Water,Electric,2490,0,0,1,0,2,1,0,0,0,0,0,1,0
+Foxparks Cryst,29B,Ice,,2500,0,0,0,0,0,0,0,0,0,0,2,0,0
+Hangyu Cryst,38B,Ice,,2510,0,0,0,0,0,3,2,0,0,0,2,3,0
+Amione,47,Water,,2520,1,0,1,0,0,2,0,0,0,0,0,1,0
+Gloopie,48,Water,Dark,2530,1,0,2,0,0,2,0,0,0,0,0,2,0
+Killamari Primo,30B,Neutral,Water,2540,0,0,1,0,0,0,1,0,0,0,0,2,0
+Gobfin,55,Water,,2550,1,0,2,0,0,2,0,0,0,0,0,1,0
+Nitewing,51,Neutral,,2560,1,0,0,0,0,0,2,0,0,0,0,0,0
+Galeclaw,49,Neutral,,2570,1,0,0,0,0,0,2,0,0,0,0,0,0
+Eikthyrdeer Terra,32B,Ground,,2580,0,0,0,0,0,0,0,2,0,0,0,0,0
+Jellroy,46,Water,Dark,2590,1,0,2,0,0,1,0,0,0,1,0,1,0
+Croajiro,9,Water,,2600,1,0,1,0,0,1,1,0,0,0,0,1,0
+Caprity,34,Grass,,2610,1,0,0,2,0,0,0,0,0,0,0,0,1
+Cinnamoth,61,Grass,,2620,1,0,0,2,0,0,2,0,0,2,0,0,0
+Herbil,10,Grass,Neutral,2630,1,0,0,1,0,0,1,0,0,0,0,1,0
+Leezpunk Ignis,73B,Fire,,2640,0,2,0,0,0,2,1,0,0,0,0,1,0
+Jelliette,45,Water,,2650,1,0,2,0,0,1,0,0,0,0,0,1,0
+Flopie,77,Grass,,2660,1,0,0,2,0,2,2,0,0,1,0,1,0
+Leezpunk,73,Dark,,2670,1,0,0,0,0,2,1,0,0,0,0,1,0
+Direhowl,33,Neutral,,2680,1,0,0,0,0,0,1,0,0,0,0,0,0
+Bristla,60,Grass,,2690,1,0,0,2,0,2,2,0,0,2,0,1,0
+Flambelle,25,Fire,,2700,1,1,0,0,0,1,0,0,0,0,0,1,1
+Eikthyrdeer,32,Neutral,,2710,1,0,0,0,0,0,0,2,0,0,0,0,0
+Melpaca,20,Neutral,,2720,1,0,0,0,0,0,0,0,0,0,0,0,2
+Tocotoco,53,Neutral,,2730,1,0,0,0,0,0,1,0,0,0,0,0,0
+Celaray,7,Water,,2740,1,0,1,0,0,0,0,0,0,0,0,1,0
+Mau Cryst,27B,Ice,,2750,0,0,0,0,0,0,0,0,0,0,1,0,1
+Cattiva,2,Neutral,,2760,1,0,0,0,0,1,1,0,1,0,0,1,0
+Killamari,30,Dark,Water,2770,1,0,1,0,0,0,1,0,0,0,0,2,0
+Hangyu,38,Ground,,2780,1,0,0,0,0,1,1,0,0,0,0,2,0
+Fuddler,31,Ground,,2790,1,0,0,0,0,1,0,0,1,0,0,1,0
+Mozzarina,40,Neutral,,2800,1,0,0,0,0,0,0,0,0,0,0,0,2
+Kelpsea,43,Water,,2810,1,0,1,0,0,0,0,0,0,0,0,0,1
+Woolipop,39,Neutral,,2820,1,0,0,0,0,0,0,0,0,0,0,0,1
+Tanzee Ignis,23B,Fire,,2830,0,1,0,0,0,1,0,1,0,0,0,1,0
+Swee,35,Ice,,2840,1,0,0,0,0,0,1,0,0,0,1,0,0
+Jolthog Cryst,15B,Ice,,2850,0,0,0,0,0,0,0,0,0,0,1,0,0
+Ribbuny,44,Neutral,,2860,1,0,0,0,0,1,1,0,0,0,0,1,0
+Rooby,26,Fire,,2870,1,1,0,0,0,0,0,0,0,0,0,0,1
+Rushoar,28,Ground,,2880,1,0,0,0,0,0,0,0,1,0,0,0,0
+Cremis,8,Neutral,,2890,1,0,0,0,0,0,1,0,0,0,0,0,2
+Tanzee,23,Grass,,2900,1,0,0,1,0,1,1,1,0,0,0,1,0
+Daedream,22,Dark,,2910,1,0,0,0,0,1,1,0,0,0,0,1,0
+Nox,24,Dark,,2920,1,0,0,0,0,0,1,0,0,0,0,0,0
+Pupperai,13,Ground,,2930,1,0,0,0,0,0,1,1,0,0,0,1,0
+Hoocrates,19,Dark,,2940,1,0,0,0,0,0,1,0,0,0,0,0,0
+Gumoss,12,Grass,Ground,2950,1,0,0,1,0,0,0,0,0,0,0,0,0
+Pengullet,17,Water,Ice,2960,1,0,1,0,0,1,0,0,0,0,1,1,0
+Clovee,14,Grass,Neutral,2970,1,0,0,1,0,0,1,0,0,0,0,0,0
+Fuack,5,Water,,2980,1,0,1,0,0,1,0,0,0,0,0,1,0
+Foxparks,29,Fire,,2990,1,1,0,0,0,0,0,0,0,0,0,0,0
+Depresso,16,Dark,,3000,1,0,0,0,0,1,0,0,1,0,0,1,1
+Sparkit,42,Electric,,3010,1,0,0,0,1,1,0,0,0,0,0,1,1
+Lifmunk,4,Grass,,3020,1,0,0,1,0,1,1,1,0,1,0,0,0
+Jolthog,15,Electric,,3030,1,0,0,0,1,0,0,0,0,0,0,0,0
+Mau,27,Dark,,3040,1,0,0,0,0,0,1,0,0,0,0,0,1
+Lamball,1,Neutral,,3050,1,0,0,0,0,1,0,0,0,0,0,1,1
+Vixy,6,Neutral,,3060,1,0,0,0,0,0,1,0,0,0,0,0,1
+Teafant,11,Water,,3070,1,0,1,0,0,0,0,0,0,0,0,0,0
+Chikipi,3,Neutral,,3080,1,0,0,0,0,0,1,0,0,0,0,0,1
+Blue Slime,,Water,,3100,0,0,0,0,0,0,0,0,0,0,0,1,0
+Cave Bat,,Neutral,,3100,0,0,0,0,0,0,1,0,0,0,0,0,0
+Demon Eye,,Dark,,3100,0,0,0,0,0,0,0,0,0,0,0,1,0
+Enchanted Sword,,Neutral,,3100,0,0,0,0,0,0,0,1,0,0,0,0,0
+Eye of Cthulhu,,Dark,,3100,0,0,0,0,0,0,0,0,0,0,0,4,0
+Green Slime,,Grass,,3100,0,0,0,0,0,0,0,0,0,0,0,1,0
+Illuminant Bat,,Neutral,,3100,0,0,0,0,0,0,1,0,0,0,0,0,0
+Illuminant Slime,,Neutral,,3100,0,0,0,0,0,0,0,0,0,0,0,1,0
+Purple Slime,,Dark,,3100,0,0,0,0,0,0,0,0,0,0,0,1,0
+Rainbow Slime,,Neutral,,3100,0,0,0,0,0,0,0,0,0,0,0,1,0
+Red Slime,,Fire,,3100,0,0,0,0,0,0,0,0,0,0,0,1,0

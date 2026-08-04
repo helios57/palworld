@@ -1,0 +1,1164 @@
+{
+  "game_version": "1.0",
+  "updated": "2026-07-14",
+  "formula": "Every pal species has a hidden integer CombiRank. When two pals of opposite gender breed, the game computes target = floor((rank_parentA + rank_parentB + 1) / 2) and the child species is the pal in the generic breeding pool whose CombiRank is closest to that target. If two species are exactly equidistant from the target, the tie is broken toward the HIGHER CombiRank (1.0 behavior; verified in-game: Turtacle 2410 + Aegidron 30 -> target 1220, tie between Quivern 1210 and Nitemary 1230, real result Nitemary). NB: some pre-1.0 guides claim ties go to the lower paldex index -- that is outdated. Parent order does not matter. Special combos override the formula entirely: a listed parent pair always produces its fixed child, and pals that only appear as special-combo children (elemental/regional variants, legendaries, and other excluded species) can never result from the rank formula.",
+  "combi_ranks": {
+    "Aegidron": 30,
+    "Amione": 2520,
+    "Anubis": 480,
+    "Arsox": 2320,
+    "Astegon": 490,
+    "Astralym": 10,
+    "Azurmane": 420,
+    "Azurobe": 1830,
+    "Azurobe Cryst": 1220,
+    "Bakemi": 1540,
+    "Bastigor": 50,
+    "Beakon": 1690,
+    "Beakon Cryst": 580,
+    "Beegarde": 2350,
+    "Bellanoir": 620,
+    "Bellanoir Libero": 130,
+    "Blazamut": 410,
+    "Blazamut Ryu": 100,
+    "Blazehowl": 1360,
+    "Blazehowl Noct": 1270,
+    "Blue Slime": 3100,
+    "Braloha": 1030,
+    "Bristla": 2690,
+    "Broncherry": 1380,
+    "Broncherry Aqua": 1080,
+    "Bulldosu": 1190,
+    "Bushi": 1560,
+    "Bushi Noct": 840,
+    "Caprity": 2610,
+    "Caprity Noct": 1940,
+    "Carnibora": 1700,
+    "Cattiva": 2760,
+    "Cave Bat": 3100,
+    "Cawgnito": 2370,
+    "Celaray": 2740,
+    "Celaray Lux": 2380,
+    "Celesdir": 570,
+    "Celesdir Noct": 270,
+    "Chikipi": 3080,
+    "Chillet": 2330,
+    "Chillet Ignis": 1950,
+    "Cinnamoth": 2620,
+    "Clovee": 2970,
+    "Cremis": 2890,
+    "Croajiro": 2600,
+    "Croajiro Noct": 1860,
+    "Cryolinx": 1040,
+    "Cryolinx Terra": 470,
+    "Daedream": 2910,
+    "Dandilord": 60,
+    "Dazemu": 2210,
+    "Dazzi": 2400,
+    "Dazzi Noct": 1910,
+    "Demon Eye": 3100,
+    "Depresso": 3000,
+    "Digtoise": 1550,
+    "Dinossom": 2100,
+    "Dinossom Lux": 1890,
+    "Direhowl": 2680,
+    "Dogen": 1460,
+    "Dualith": 510,
+    "Dualith Noct": 250,
+    "Dumud": 2290,
+    "Dumud Gild": 1620,
+    "Dupin": 520,
+    "Dynamoff": 1400,
+    "Eidrolon": 300,
+    "Eidrolon Ignis": 140,
+    "Eikthyrdeer": 2710,
+    "Eikthyrdeer Terra": 2580,
+    "Elgrove": 2020,
+    "Elgrove Cryst": 440,
+    "Elizabee": 1790,
+    "Elphidran": 2280,
+    "Elphidran Aqua": 1640,
+    "Enchanted Sword": 3100,
+    "Eye of Cthulhu": 3100,
+    "Faleris": 500,
+    "Faleris Aqua": 450,
+    "Felbat": 1570,
+    "Fenglope": 1960,
+    "Fenglope Lux": 900,
+    "Finsider": 2450,
+    "Finsider Ignis": 2240,
+    "Flambelle": 2700,
+    "Flaracle": 390,
+    "Flopie": 2660,
+    "Foxcicle": 1970,
+    "Foxparks": 2990,
+    "Foxparks Cryst": 2500,
+    "Frostallion": 150,
+    "Frostallion Noct": 110,
+    "Frostplume": 860,
+    "Fuack": 2980,
+    "Fuack Ignis": 2300,
+    "Fuddler": 2790,
+    "Galeclaw": 2570,
+    "Ghangler": 880,
+    "Ghangler Ignis": 720,
+    "Gildane": 730,
+    "Gildra": 1170,
+    "Gloopie": 2530,
+    "Gloopie Primo": 1630,
+    "Gobfin": 2550,
+    "Gobfin Ignis": 2430,
+    "Gorirat": 2140,
+    "Gorirat Terra": 1880,
+    "Green Slime": 3100,
+    "Grintale": 2120,
+    "Grizzbolt": 1020,
+    "Gumoss": 2950,
+    "Hangyu": 2780,
+    "Hangyu Cryst": 2510,
+    "Hartalis": 90,
+    "Helzephyr": 1130,
+    "Helzephyr Lux": 960,
+    "Herbil": 2630,
+    "Hoocrates": 2940,
+    "Hoodle": 1770,
+    "Icelyn": 1260,
+    "Illuminant Bat": 3100,
+    "Illuminant Slime": 3100,
+    "Incineram": 1470,
+    "Incineram Noct": 1310,
+    "Jelliette": 2650,
+    "Jellroy": 2590,
+    "Jetragon": 70,
+    "Jolthog": 3030,
+    "Jolthog Cryst": 2850,
+    "Jormuntide": 590,
+    "Jormuntide Ignis": 170,
+    "Katress": 2040,
+    "Katress Ignis": 1800,
+    "Kelpsea": 2810,
+    "Kelpsea Ignis": 2470,
+    "Kikit": 2310,
+    "Killamari": 2770,
+    "Killamari Primo": 2540,
+    "Kingpaca": 2220,
+    "Kingpaca Cryst": 1530,
+    "Kitsun": 1670,
+    "Kitsun Noct": 800,
+    "Knocklem": 260,
+    "Knocklem Ignis": 210,
+    "Lamball": 3050,
+    "Lapiron": 1680,
+    "Lapure": 810,
+    "Leafan": 1410,
+    "Leezpunk": 2670,
+    "Leezpunk Ignis": 2640,
+    "Lifmunk": 3020,
+    "Loomen": 890,
+    "Loupmoon": 2110,
+    "Loupmoon Cryst": 1290,
+    "Lovander": 2090,
+    "Lullu": 1990,
+    "Lunaris": 2010,
+    "Lyleen": 240,
+    "Lyleen Noct": 220,
+    "Majex": 1010,
+    "Mammorest": 1340,
+    "Mammorest Cryst": 1070,
+    "Maraith": 1710,
+    "Mau": 3040,
+    "Mau Cryst": 2750,
+    "Melpaca": 2720,
+    "Menasting": 1120,
+    "Menasting Terra": 640,
+    "Mimog": 1740,
+    "Moldron": 750,
+    "Moldron Cryst": 380,
+    "Mossanda": 2060,
+    "Mossanda Lux": 1440,
+    "Mozzarina": 2800,
+    "Muffly": 2480,
+    "Munchill": 2130,
+    "Mycora": 760,
+    "Necromus": 190,
+    "Needoll": 2420,
+    "Needoll Noct": 1580,
+    "Neptilius": 160,
+    "Nitemary": 1230,
+    "Nitemary Botan": 1320,
+    "Nitewing": 2560,
+    "Nox": 2920,
+    "Nyafia": 1250,
+    "Omascul": 1140,
+    "Ophydia": 230,
+    "Orserk": 120,
+    "Paladius": 180,
+    "Palumba": 1240,
+    "Panthalus": 20,
+    "Pengullet": 2960,
+    "Pengullet Lux": 2490,
+    "Penking": 2070,
+    "Penking Lux": 1850,
+    "Petallia": 1720,
+    "Petallia Ignis": 820,
+    "Pierdon": 1110,
+    "Pierdon Cryst": 460,
+    "Polapup": 1660,
+    "Polapup Terra": 1100,
+    "Prixter": 1510,
+    "Prixter Lux": 850,
+    "Prunelia": 1390,
+    "Puffolt": 2360,
+    "Pupperai": 2930,
+    "Purple Slime": 3100,
+    "Pyrin": 1980,
+    "Pyrin Noct": 1870,
+    "Quivern": 1210,
+    "Quivern Botan": 1300,
+    "Ragnahawk": 1050,
+    "Rainbow Slime": 3100,
+    "Rayhound": 1920,
+    "Rayhound Cryst": 1600,
+    "Red Slime": 3100,
+    "Reindrix": 1930,
+    "Relaxaurus": 1090,
+    "Relaxaurus Lux": 770,
+    "Renjishi": 290,
+    "Reptyro": 1060,
+    "Reptyro Cryst": 600,
+    "Ribbuny": 2860,
+    "Ribbuny Botan": 2460,
+    "Robinquill": 2260,
+    "Robinquill Terra": 2050,
+    "Rooby": 2870,
+    "Roujay": 530,
+    "Rushoar": 2880,
+    "Sekhmet": 870,
+    "Selyne": 360,
+    "Shadowbeak": 550,
+    "Shaolong": 40,
+    "Shroomer": 1520,
+    "Shroomer Noct": 1450,
+    "Sibelyx": 1810,
+    "Sibelyx Primo": 650,
+    "Silvance": 80,
+    "Silvegis": 560,
+    "Skutlass": 1420,
+    "Skutlass Ignis": 1590,
+    "Slowatt": 1750,
+    "Smokie": 1760,
+    "Smokie Cryst": 1610,
+    "Snock": 1780,
+    "Snock Lux": 1500,
+    "Snugloo": 2390,
+    "Solenne": 280,
+    "Solmora": 1370,
+    "Solmora Lux": 1000,
+    "Sootseer": 980,
+    "Souffline": 2000,
+    "Sparkit": 3010,
+    "Splatterina": 780,
+    "Starryon": 1150,
+    "Starryon Primo": 430,
+    "Surfent": 2440,
+    "Surfent Terra": 1840,
+    "Suzaku": 1200,
+    "Suzaku Aqua": 740,
+    "Swee": 2840,
+    "Sweepa": 2150,
+    "Tanzee": 2900,
+    "Tanzee Ignis": 2830,
+    "Tarantriss": 1730,
+    "Teafant": 3070,
+    "Tetroise": 790,
+    "Tetroise Primo": 200,
+    "Tocotoco": 2730,
+    "Tombat": 2340,
+    "Tropicaw": 1350,
+    "Turtacle": 2410,
+    "Turtacle Terra": 1330,
+    "Univolt": 2270,
+    "Univolt Cryst": 540,
+    "Vaelet": 1480,
+    "Valentail": 1900,
+    "Vanwyrm": 1650,
+    "Vanwyrm Cryst": 1430,
+    "Venusa": 970,
+    "Verdash": 1160,
+    "Vixy": 3060,
+    "Warsect": 1280,
+    "Warsect Terra": 630,
+    "Whalaska": 710,
+    "Whalaska Ignis": 370,
+    "Wispaw": 2250,
+    "Wistella": 1180,
+    "Wixen": 2080,
+    "Wixen Noct": 1490,
+    "Woolipop": 2820,
+    "Woolipop Terra": 2030,
+    "Wumpo": 830,
+    "Wumpo Botan": 610,
+    "Xenogard": 990,
+    "Xenolord": 400,
+    "Xenovader": 1820,
+    "Yakumo": 2230
+  },
+  "special_combos": [
+    {
+      "parent_a": "Relaxaurus",
+      "parent_b": "Sparkit",
+      "child": "Relaxaurus Lux"
+    },
+    {
+      "parent_a": "Incineram",
+      "parent_b": "Maraith",
+      "child": "Incineram Noct"
+    },
+    {
+      "parent_a": "Mau",
+      "parent_b": "Pengullet",
+      "child": "Mau Cryst"
+    },
+    {
+      "parent_a": "Vanwyrm",
+      "parent_b": "Foxcicle",
+      "child": "Vanwyrm Cryst"
+    },
+    {
+      "parent_a": "Eikthyrdeer",
+      "parent_b": "Hangyu",
+      "child": "Eikthyrdeer Terra"
+    },
+    {
+      "parent_a": "Elphidran",
+      "parent_b": "Surfent",
+      "child": "Elphidran Aqua"
+    },
+    {
+      "parent_a": "Pyrin",
+      "parent_b": "Katress",
+      "child": "Pyrin Noct"
+    },
+    {
+      "parent_a": "Mammorest",
+      "parent_b": "Wumpo",
+      "child": "Mammorest Cryst"
+    },
+    {
+      "parent_a": "Mossanda",
+      "parent_b": "Grizzbolt",
+      "child": "Mossanda Lux"
+    },
+    {
+      "parent_a": "Dinossom",
+      "parent_b": "Rayhound",
+      "child": "Dinossom Lux"
+    },
+    {
+      "parent_a": "Jolthog",
+      "parent_b": "Pengullet",
+      "child": "Jolthog Cryst"
+    },
+    {
+      "parent_a": "Frostallion",
+      "parent_b": "Helzephyr",
+      "child": "Frostallion Noct"
+    },
+    {
+      "parent_a": "Kingpaca",
+      "parent_b": "Reindrix",
+      "child": "Kingpaca Cryst"
+    },
+    {
+      "parent_a": "Lyleen",
+      "parent_b": "Menasting",
+      "child": "Lyleen Noct"
+    },
+    {
+      "parent_a": "Leezpunk",
+      "parent_b": "Flambelle",
+      "child": "Leezpunk Ignis"
+    },
+    {
+      "parent_a": "Blazehowl",
+      "parent_b": "Felbat",
+      "child": "Blazehowl Noct"
+    },
+    {
+      "parent_a": "Robinquill",
+      "parent_b": "Fuddler",
+      "child": "Robinquill Terra"
+    },
+    {
+      "parent_a": "Broncherry",
+      "parent_b": "Fuack",
+      "child": "Broncherry Aqua"
+    },
+    {
+      "parent_a": "Surfent",
+      "parent_b": "Dumud",
+      "child": "Surfent Terra"
+    },
+    {
+      "parent_a": "Gobfin",
+      "parent_b": "Rooby",
+      "child": "Gobfin Ignis"
+    },
+    {
+      "parent_a": "Suzaku",
+      "parent_b": "Jormuntide",
+      "child": "Suzaku Aqua"
+    },
+    {
+      "parent_a": "Reptyro",
+      "parent_b": "Foxcicle",
+      "child": "Reptyro Cryst"
+    },
+    {
+      "parent_a": "Hangyu",
+      "parent_b": "Swee",
+      "child": "Hangyu Cryst"
+    },
+    {
+      "parent_a": "Jormuntide",
+      "parent_b": "Blazehowl",
+      "child": "Jormuntide Ignis"
+    },
+    {
+      "parent_a": "Bellanoir",
+      "parent_b": "Bellanoir Libero",
+      "child": "Bellanoir"
+    },
+    {
+      "parent_a": "Katress",
+      "parent_b": "Wixen",
+      "child": "Wixen Noct"
+    },
+    {
+      "parent_a": "Katress",
+      "parent_b": "Wixen",
+      "child": "Katress Ignis"
+    },
+    {
+      "parent_a": "Gorirat",
+      "parent_b": "Kikit",
+      "child": "Gorirat Terra"
+    },
+    {
+      "parent_a": "Chillet",
+      "parent_b": "Arsox",
+      "child": "Chillet Ignis"
+    },
+    {
+      "parent_a": "Quivern",
+      "parent_b": "Lullu",
+      "child": "Quivern Botan"
+    },
+    {
+      "parent_a": "Helzephyr",
+      "parent_b": "Beakon",
+      "child": "Helzephyr Lux"
+    },
+    {
+      "parent_a": "Bushi",
+      "parent_b": "Sootseer",
+      "child": "Bushi Noct"
+    },
+    {
+      "parent_a": "Menasting",
+      "parent_b": "Knocklem",
+      "child": "Menasting Terra"
+    },
+    {
+      "parent_a": "Foxparks",
+      "parent_b": "Foxcicle",
+      "child": "Foxparks Cryst"
+    },
+    {
+      "parent_a": "Dazzi",
+      "parent_b": "Omascul",
+      "child": "Dazzi Noct"
+    },
+    {
+      "parent_a": "Cryolinx",
+      "parent_b": "Dazemu",
+      "child": "Cryolinx Terra"
+    },
+    {
+      "parent_a": "Fenglope",
+      "parent_b": "Azurmane",
+      "child": "Fenglope Lux"
+    },
+    {
+      "parent_a": "Caprity",
+      "parent_b": "Tarantriss",
+      "child": "Caprity Noct"
+    },
+    {
+      "parent_a": "Loupmoon",
+      "parent_b": "Sweepa",
+      "child": "Loupmoon Cryst"
+    },
+    {
+      "parent_a": "Faleris",
+      "parent_b": "Jormuntide",
+      "child": "Faleris Aqua"
+    },
+    {
+      "parent_a": "Ribbuny",
+      "parent_b": "Bristla",
+      "child": "Ribbuny Botan"
+    },
+    {
+      "parent_a": "Warsect",
+      "parent_b": "Digtoise",
+      "child": "Warsect Terra"
+    },
+    {
+      "parent_a": "Kitsun",
+      "parent_b": "Nyafia",
+      "child": "Kitsun Noct"
+    },
+    {
+      "parent_a": "Gildane",
+      "parent_b": "Eikthyrdeer Terra",
+      "child": "Celesdir"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Blue Slime",
+      "child": "Blue Slime"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Red Slime",
+      "child": "Red Slime"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Purple Slime",
+      "child": "Purple Slime"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Illuminant Slime",
+      "child": "Illuminant Slime"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Rainbow Slime",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Enchanted Sword",
+      "child": "Enchanted Sword"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Cave Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Illuminant Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Eye of Cthulhu",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Demon Eye",
+      "child": "Demon Eye"
+    },
+    {
+      "parent_a": "Blue Slime",
+      "parent_b": "Red Slime",
+      "child": "Purple Slime"
+    },
+    {
+      "parent_a": "Blue Slime",
+      "parent_b": "Purple Slime",
+      "child": "Purple Slime"
+    },
+    {
+      "parent_a": "Blue Slime",
+      "parent_b": "Illuminant Slime",
+      "child": "Illuminant Slime"
+    },
+    {
+      "parent_a": "Blue Slime",
+      "parent_b": "Rainbow Slime",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Blue Slime",
+      "parent_b": "Enchanted Sword",
+      "child": "Enchanted Sword"
+    },
+    {
+      "parent_a": "Blue Slime",
+      "parent_b": "Cave Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Blue Slime",
+      "parent_b": "Illuminant Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Blue Slime",
+      "parent_b": "Eye of Cthulhu",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Blue Slime",
+      "parent_b": "Demon Eye",
+      "child": "Demon Eye"
+    },
+    {
+      "parent_a": "Red Slime",
+      "parent_b": "Purple Slime",
+      "child": "Purple Slime"
+    },
+    {
+      "parent_a": "Red Slime",
+      "parent_b": "Illuminant Slime",
+      "child": "Illuminant Slime"
+    },
+    {
+      "parent_a": "Red Slime",
+      "parent_b": "Rainbow Slime",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Red Slime",
+      "parent_b": "Enchanted Sword",
+      "child": "Enchanted Sword"
+    },
+    {
+      "parent_a": "Red Slime",
+      "parent_b": "Cave Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Red Slime",
+      "parent_b": "Illuminant Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Red Slime",
+      "parent_b": "Eye of Cthulhu",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Red Slime",
+      "parent_b": "Demon Eye",
+      "child": "Demon Eye"
+    },
+    {
+      "parent_a": "Purple Slime",
+      "parent_b": "Illuminant Slime",
+      "child": "Illuminant Slime"
+    },
+    {
+      "parent_a": "Purple Slime",
+      "parent_b": "Rainbow Slime",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Purple Slime",
+      "parent_b": "Enchanted Sword",
+      "child": "Enchanted Sword"
+    },
+    {
+      "parent_a": "Purple Slime",
+      "parent_b": "Cave Bat",
+      "child": "Illuminant Bat"
+    },
+    {
+      "parent_a": "Purple Slime",
+      "parent_b": "Illuminant Bat",
+      "child": "Illuminant Bat"
+    },
+    {
+      "parent_a": "Purple Slime",
+      "parent_b": "Eye of Cthulhu",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Purple Slime",
+      "parent_b": "Demon Eye",
+      "child": "Demon Eye"
+    },
+    {
+      "parent_a": "Illuminant Slime",
+      "parent_b": "Rainbow Slime",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Illuminant Slime",
+      "parent_b": "Enchanted Sword",
+      "child": "Enchanted Sword"
+    },
+    {
+      "parent_a": "Illuminant Slime",
+      "parent_b": "Cave Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Illuminant Slime",
+      "parent_b": "Illuminant Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Illuminant Slime",
+      "parent_b": "Eye of Cthulhu",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Illuminant Slime",
+      "parent_b": "Demon Eye",
+      "child": "Demon Eye"
+    },
+    {
+      "parent_a": "Rainbow Slime",
+      "parent_b": "Enchanted Sword",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Rainbow Slime",
+      "parent_b": "Cave Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Rainbow Slime",
+      "parent_b": "Illuminant Bat",
+      "child": "Rainbow Slime"
+    },
+    {
+      "parent_a": "Rainbow Slime",
+      "parent_b": "Eye of Cthulhu",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Rainbow Slime",
+      "parent_b": "Demon Eye",
+      "child": "Demon Eye"
+    },
+    {
+      "parent_a": "Enchanted Sword",
+      "parent_b": "Cave Bat",
+      "child": "Enchanted Sword"
+    },
+    {
+      "parent_a": "Enchanted Sword",
+      "parent_b": "Illuminant Bat",
+      "child": "Enchanted Sword"
+    },
+    {
+      "parent_a": "Enchanted Sword",
+      "parent_b": "Eye of Cthulhu",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Enchanted Sword",
+      "parent_b": "Demon Eye",
+      "child": "Demon Eye"
+    },
+    {
+      "parent_a": "Cave Bat",
+      "parent_b": "Illuminant Bat",
+      "child": "Illuminant Bat"
+    },
+    {
+      "parent_a": "Cave Bat",
+      "parent_b": "Eye of Cthulhu",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Cave Bat",
+      "parent_b": "Demon Eye",
+      "child": "Demon Eye"
+    },
+    {
+      "parent_a": "Illuminant Bat",
+      "parent_b": "Eye of Cthulhu",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Illuminant Bat",
+      "parent_b": "Demon Eye",
+      "child": "Demon Eye"
+    },
+    {
+      "parent_a": "Eye of Cthulhu",
+      "parent_b": "Demon Eye",
+      "child": "Eye of Cthulhu"
+    },
+    {
+      "parent_a": "Killamari",
+      "parent_b": "Ribbuny",
+      "child": "Killamari Primo"
+    },
+    {
+      "parent_a": "Pengullet",
+      "parent_b": "Sparkit",
+      "child": "Pengullet Lux"
+    },
+    {
+      "parent_a": "Penking",
+      "parent_b": "Rayhound",
+      "child": "Penking Lux"
+    },
+    {
+      "parent_a": "Celaray",
+      "parent_b": "Univolt",
+      "child": "Celaray Lux"
+    },
+    {
+      "parent_a": "Fuack",
+      "parent_b": "Flambelle",
+      "child": "Fuack Ignis"
+    },
+    {
+      "parent_a": "Dumud",
+      "parent_b": "Eikthyrdeer Terra",
+      "child": "Dumud Gild"
+    },
+    {
+      "parent_a": "Turtacle",
+      "parent_b": "Digtoise",
+      "child": "Turtacle Terra"
+    },
+    {
+      "parent_a": "Croajiro",
+      "parent_b": "Bushi Noct",
+      "child": "Croajiro Noct"
+    },
+    {
+      "parent_a": "Azurobe",
+      "parent_b": "Frostplume",
+      "child": "Azurobe Cryst"
+    },
+    {
+      "parent_a": "Whalaska",
+      "parent_b": "Chillet Ignis",
+      "child": "Whalaska Ignis"
+    },
+    {
+      "parent_a": "Ghangler",
+      "parent_b": "Sootseer",
+      "child": "Ghangler Ignis"
+    },
+    {
+      "parent_a": "Finsider",
+      "parent_b": "Gobfin Ignis",
+      "child": "Finsider Ignis"
+    },
+    {
+      "parent_a": "Tanzee",
+      "parent_b": "Flambelle",
+      "child": "Tanzee Ignis"
+    },
+    {
+      "parent_a": "Univolt",
+      "parent_b": "Frostplume",
+      "child": "Univolt Cryst"
+    },
+    {
+      "parent_a": "Rayhound",
+      "parent_b": "Foxcicle",
+      "child": "Rayhound Cryst"
+    },
+    {
+      "parent_a": "Beakon",
+      "parent_b": "Frostplume",
+      "child": "Beakon Cryst"
+    },
+    {
+      "parent_a": "Woolipop",
+      "parent_b": "Kikit",
+      "child": "Woolipop Terra"
+    },
+    {
+      "parent_a": "Prixter",
+      "parent_b": "Helzephyr Lux",
+      "child": "Prixter Lux"
+    },
+    {
+      "parent_a": "Smokie",
+      "parent_b": "Munchill",
+      "child": "Smokie Cryst"
+    },
+    {
+      "parent_a": "Nitemary",
+      "parent_b": "Petallia",
+      "child": "Nitemary Botan"
+    },
+    {
+      "parent_a": "Starryon",
+      "parent_b": "Celesdir",
+      "child": "Starryon Primo"
+    },
+    {
+      "parent_a": "Gloopie",
+      "parent_b": "Valentail",
+      "child": "Gloopie Primo"
+    },
+    {
+      "parent_a": "Sibelyx",
+      "parent_b": "Lapure",
+      "child": "Sibelyx Primo"
+    },
+    {
+      "parent_a": "Knocklem",
+      "parent_b": "Ragnahawk",
+      "child": "Knocklem Ignis"
+    },
+    {
+      "parent_a": "Petallia",
+      "parent_b": "Bushi",
+      "child": "Petallia Ignis"
+    },
+    {
+      "parent_a": "Celesdir",
+      "parent_b": "Kitsun Noct",
+      "child": "Celesdir Noct"
+    },
+    {
+      "parent_a": "Polapup",
+      "parent_b": "Surfent Terra",
+      "child": "Polapup Terra"
+    },
+    {
+      "parent_a": "Solmora",
+      "parent_b": "Slowatt",
+      "child": "Solmora Lux"
+    },
+    {
+      "parent_a": "Dualith",
+      "parent_b": "Sootseer",
+      "child": "Dualith Noct"
+    },
+    {
+      "parent_a": "Tetroise",
+      "parent_b": "Celesdir",
+      "child": "Tetroise Primo"
+    },
+    {
+      "parent_a": "Eidrolon",
+      "parent_b": "Suzaku",
+      "child": "Eidrolon Ignis"
+    },
+    {
+      "parent_a": "Moldron",
+      "parent_b": "Reptyro Cryst",
+      "child": "Moldron Cryst"
+    },
+    {
+      "parent_a": "Pierdon",
+      "parent_b": "Wumpo",
+      "child": "Pierdon Cryst"
+    },
+    {
+      "parent_a": "Skutlass",
+      "parent_b": "Gobfin Ignis",
+      "child": "Skutlass Ignis"
+    },
+    {
+      "parent_a": "Snock",
+      "parent_b": "Turtacle Terra",
+      "child": "Snock Lux"
+    },
+    {
+      "parent_a": "Needoll",
+      "parent_b": "Prunelia",
+      "child": "Needoll Noct"
+    },
+    {
+      "parent_a": "Elgrove",
+      "parent_b": "Pierdon Cryst",
+      "child": "Elgrove Cryst"
+    },
+    {
+      "parent_a": "Frostallion",
+      "parent_b": "Frostallion",
+      "child": "Frostallion"
+    },
+    {
+      "parent_a": "Jetragon",
+      "parent_b": "Jetragon",
+      "child": "Jetragon"
+    },
+    {
+      "parent_a": "Paladius",
+      "parent_b": "Paladius",
+      "child": "Paladius"
+    },
+    {
+      "parent_a": "Necromus",
+      "parent_b": "Necromus",
+      "child": "Necromus"
+    },
+    {
+      "parent_a": "Lyleen",
+      "parent_b": "Lyleen",
+      "child": "Lyleen"
+    },
+    {
+      "parent_a": "Faleris",
+      "parent_b": "Faleris",
+      "child": "Faleris"
+    },
+    {
+      "parent_a": "Grizzbolt",
+      "parent_b": "Grizzbolt",
+      "child": "Grizzbolt"
+    },
+    {
+      "parent_a": "Orserk",
+      "parent_b": "Orserk",
+      "child": "Orserk"
+    },
+    {
+      "parent_a": "Shadowbeak",
+      "parent_b": "Shadowbeak",
+      "child": "Shadowbeak"
+    },
+    {
+      "parent_a": "Bellanoir Libero",
+      "parent_b": "Bellanoir Libero",
+      "child": "Bellanoir Libero"
+    },
+    {
+      "parent_a": "Blazamut Ryu",
+      "parent_b": "Blazamut Ryu",
+      "child": "Blazamut Ryu"
+    },
+    {
+      "parent_a": "Mimog",
+      "parent_b": "Mimog",
+      "child": "Mimog"
+    },
+    {
+      "parent_a": "Selyne",
+      "parent_b": "Selyne",
+      "child": "Selyne"
+    },
+    {
+      "parent_a": "Xenovader",
+      "parent_b": "Xenovader",
+      "child": "Xenovader"
+    },
+    {
+      "parent_a": "Xenogard",
+      "parent_b": "Xenogard",
+      "child": "Xenogard"
+    },
+    {
+      "parent_a": "Xenolord",
+      "parent_b": "Xenolord",
+      "child": "Xenolord"
+    },
+    {
+      "parent_a": "Bastigor",
+      "parent_b": "Bastigor",
+      "child": "Bastigor"
+    },
+    {
+      "parent_a": "Green Slime",
+      "parent_b": "Green Slime",
+      "child": "Green Slime"
+    },
+    {
+      "parent_a": "Cave Bat",
+      "parent_b": "Cave Bat",
+      "child": "Cave Bat"
+    },
+    {
+      "parent_a": "Neptilius",
+      "parent_b": "Neptilius",
+      "child": "Neptilius"
+    },
+    {
+      "parent_a": "Hartalis",
+      "parent_b": "Hartalis",
+      "child": "Hartalis"
+    },
+    {
+      "parent_a": "Shaolong",
+      "parent_b": "Shaolong",
+      "child": "Shaolong"
+    },
+    {
+      "parent_a": "Dandilord",
+      "parent_b": "Dandilord",
+      "child": "Dandilord"
+    },
+    {
+      "parent_a": "Silvance",
+      "parent_b": "Silvance",
+      "child": "Silvance"
+    },
+    {
+      "parent_a": "Relaxaurus Lux",
+      "parent_b": "Relaxaurus Lux",
+      "child": "Relaxaurus Lux"
+    },
+    {
+      "parent_a": "Mossanda Lux",
+      "parent_b": "Mossanda Lux",
+      "child": "Mossanda Lux"
+    },
+    {
+      "parent_a": "Panthalus",
+      "parent_b": "Panthalus",
+      "child": "Panthalus"
+    },
+    {
+      "parent_a": "Astralym",
+      "parent_b": "Astralym",
+      "child": "Astralym"
+    }
+  ],
+  "same_species_note": "breeding two pals of the same species always yields that species",
+  "notes": [
+    "Parents are order-insensitive: A+B and B+A give the same child.",
+    "Breeding requires one male and one female parent; which parent is which gender does not affect the child species.",
+    "special_combos contains all 164 'Breed Unique' rows from paldb.cc for 1.0: 136 fixed cross-species recipes plus 28 self-pair rows (X+X=X) marking the 28 species obtainable in breeding ONLY by pairing two of the same species (legendaries, Slime/Cave Bat crossover pals, some variants).",
+    "Elemental/regional variant pals and special-combo-only children are excluded from the generic rank pool: the formula can never produce them; use their special combo or same-species pairing.",
+    "CombiRank range in 1.0 is 10 (Xenolord) to 3100 (the eleven crossover/Yakushima pals such as Green Slime and Cave Bat, which share rank 3100); Chikipi is 3080.",
+    "Breeding combos were rebalanced in 1.0 vs early access; ranks here were scraped from paldb.cc after the 1.0 release and its pal list matches the 1.0 paldex (299 pals) exactly."
+  ],
+  "gaps": [
+    "Tie-break rule has conflicting documentation: palworld.wiki.gg says the lower internal index wins on exact CombiRank ties, while one 1.0-era aggregator claims ties resolve to the higher CombiRank; not independently verified in-game for 1.0.",
+    "Eleven crossover pals share CombiRank 3100, so formula results among them depend entirely on the tie-break rule / their exclusion from the generic pool.",
+    "paldb.cc does not print an explicit game-version stamp on the Breeding_Farm page; 1.0 provenance is inferred from its exact match with the 299-pal 1.0 paldex and 1.0-only species."
+  ],
+  "sources": [
+    {
+      "url": "https://paldb.cc/en/Breeding_Farm",
+      "what": "full CombiRank table for all 299 pals ('Breed Combi' tab) and all 164 special/unique breeding combinations ('Breed Unique' tab); raw HTML kept at data/raw/paldb_breeding.html",
+      "fetched": "2026-07-14"
+    },
+    {
+      "url": "https://palworld.wiki.gg/wiki/Breeding",
+      "what": "exact formula wording child = floor((A + B + 1) / 2), tie-break 'lowest index number is selected', gender requirement, excluded/same-species-only pals",
+      "fetched": "2026-07-14"
+    },
+    {
+      "url": "https://palworld.ludbase.com/en/tools/breeding/",
+      "what": "1.0 confirmation of the floor((rankA + rankB + 1) / 2) formula and of ~135 special override combinations",
+      "fetched": "2026-07-14"
+    },
+    {
+      "url": "https://advancecalchub.app/blog/palworld-breeding-guide-best-pals",
+      "what": "gender requirement and parent order-insensitivity (pre-1.0 era page; used only for mechanics, not ranks)",
+      "fetched": "2026-07-14"
+    }
+  ]
+}

@@ -1,0 +1,822 @@
+[
+ {
+  "parent_a": "Relaxaurus",
+  "parent_b": "Sparkit",
+  "child": "Relaxaurus Lux"
+ },
+ {
+  "parent_a": "Incineram",
+  "parent_b": "Maraith",
+  "child": "Incineram Noct"
+ },
+ {
+  "parent_a": "Mau",
+  "parent_b": "Pengullet",
+  "child": "Mau Cryst"
+ },
+ {
+  "parent_a": "Vanwyrm",
+  "parent_b": "Foxcicle",
+  "child": "Vanwyrm Cryst"
+ },
+ {
+  "parent_a": "Eikthyrdeer",
+  "parent_b": "Hangyu",
+  "child": "Eikthyrdeer Terra"
+ },
+ {
+  "parent_a": "Elphidran",
+  "parent_b": "Surfent",
+  "child": "Elphidran Aqua"
+ },
+ {
+  "parent_a": "Pyrin",
+  "parent_b": "Katress",
+  "child": "Pyrin Noct"
+ },
+ {
+  "parent_a": "Mammorest",
+  "parent_b": "Wumpo",
+  "child": "Mammorest Cryst"
+ },
+ {
+  "parent_a": "Mossanda",
+  "parent_b": "Grizzbolt",
+  "child": "Mossanda Lux"
+ },
+ {
+  "parent_a": "Dinossom",
+  "parent_b": "Rayhound",
+  "child": "Dinossom Lux"
+ },
+ {
+  "parent_a": "Jolthog",
+  "parent_b": "Pengullet",
+  "child": "Jolthog Cryst"
+ },
+ {
+  "parent_a": "Frostallion",
+  "parent_b": "Helzephyr",
+  "child": "Frostallion Noct"
+ },
+ {
+  "parent_a": "Kingpaca",
+  "parent_b": "Reindrix",
+  "child": "Kingpaca Cryst"
+ },
+ {
+  "parent_a": "Lyleen",
+  "parent_b": "Menasting",
+  "child": "Lyleen Noct"
+ },
+ {
+  "parent_a": "Leezpunk",
+  "parent_b": "Flambelle",
+  "child": "Leezpunk Ignis"
+ },
+ {
+  "parent_a": "Blazehowl",
+  "parent_b": "Felbat",
+  "child": "Blazehowl Noct"
+ },
+ {
+  "parent_a": "Robinquill",
+  "parent_b": "Fuddler",
+  "child": "Robinquill Terra"
+ },
+ {
+  "parent_a": "Broncherry",
+  "parent_b": "Fuack",
+  "child": "Broncherry Aqua"
+ },
+ {
+  "parent_a": "Surfent",
+  "parent_b": "Dumud",
+  "child": "Surfent Terra"
+ },
+ {
+  "parent_a": "Gobfin",
+  "parent_b": "Rooby",
+  "child": "Gobfin Ignis"
+ },
+ {
+  "parent_a": "Suzaku",
+  "parent_b": "Jormuntide",
+  "child": "Suzaku Aqua"
+ },
+ {
+  "parent_a": "Reptyro",
+  "parent_b": "Foxcicle",
+  "child": "Reptyro Cryst"
+ },
+ {
+  "parent_a": "Hangyu",
+  "parent_b": "Swee",
+  "child": "Hangyu Cryst"
+ },
+ {
+  "parent_a": "Jormuntide",
+  "parent_b": "Blazehowl",
+  "child": "Jormuntide Ignis"
+ },
+ {
+  "parent_a": "Bellanoir",
+  "parent_b": "Bellanoir Libero",
+  "child": "Bellanoir"
+ },
+ {
+  "parent_a": "Katress",
+  "parent_b": "Wixen",
+  "child": "Wixen Noct"
+ },
+ {
+  "parent_a": "Katress",
+  "parent_b": "Wixen",
+  "child": "Katress Ignis"
+ },
+ {
+  "parent_a": "Gorirat",
+  "parent_b": "Kikit",
+  "child": "Gorirat Terra"
+ },
+ {
+  "parent_a": "Chillet",
+  "parent_b": "Arsox",
+  "child": "Chillet Ignis"
+ },
+ {
+  "parent_a": "Quivern",
+  "parent_b": "Lullu",
+  "child": "Quivern Botan"
+ },
+ {
+  "parent_a": "Helzephyr",
+  "parent_b": "Beakon",
+  "child": "Helzephyr Lux"
+ },
+ {
+  "parent_a": "Bushi",
+  "parent_b": "Sootseer",
+  "child": "Bushi Noct"
+ },
+ {
+  "parent_a": "Menasting",
+  "parent_b": "Knocklem",
+  "child": "Menasting Terra"
+ },
+ {
+  "parent_a": "Foxparks",
+  "parent_b": "Foxcicle",
+  "child": "Foxparks Cryst"
+ },
+ {
+  "parent_a": "Dazzi",
+  "parent_b": "Omascul",
+  "child": "Dazzi Noct"
+ },
+ {
+  "parent_a": "Cryolinx",
+  "parent_b": "Dazemu",
+  "child": "Cryolinx Terra"
+ },
+ {
+  "parent_a": "Fenglope",
+  "parent_b": "Azurmane",
+  "child": "Fenglope Lux"
+ },
+ {
+  "parent_a": "Caprity",
+  "parent_b": "Tarantriss",
+  "child": "Caprity Noct"
+ },
+ {
+  "parent_a": "Loupmoon",
+  "parent_b": "Sweepa",
+  "child": "Loupmoon Cryst"
+ },
+ {
+  "parent_a": "Faleris",
+  "parent_b": "Jormuntide",
+  "child": "Faleris Aqua"
+ },
+ {
+  "parent_a": "Ribbuny",
+  "parent_b": "Bristla",
+  "child": "Ribbuny Botan"
+ },
+ {
+  "parent_a": "Warsect",
+  "parent_b": "Digtoise",
+  "child": "Warsect Terra"
+ },
+ {
+  "parent_a": "Kitsun",
+  "parent_b": "Nyafia",
+  "child": "Kitsun Noct"
+ },
+ {
+  "parent_a": "Gildane",
+  "parent_b": "Eikthyrdeer Terra",
+  "child": "Celesdir"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Blue Slime",
+  "child": "Blue Slime"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Red Slime",
+  "child": "Red Slime"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Purple Slime",
+  "child": "Purple Slime"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Illuminant Slime",
+  "child": "Illuminant Slime"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Rainbow Slime",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Enchanted Sword",
+  "child": "Enchanted Sword"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Cave Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Illuminant Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Eye of Cthulhu",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Demon Eye",
+  "child": "Demon Eye"
+ },
+ {
+  "parent_a": "Blue Slime",
+  "parent_b": "Red Slime",
+  "child": "Purple Slime"
+ },
+ {
+  "parent_a": "Blue Slime",
+  "parent_b": "Purple Slime",
+  "child": "Purple Slime"
+ },
+ {
+  "parent_a": "Blue Slime",
+  "parent_b": "Illuminant Slime",
+  "child": "Illuminant Slime"
+ },
+ {
+  "parent_a": "Blue Slime",
+  "parent_b": "Rainbow Slime",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Blue Slime",
+  "parent_b": "Enchanted Sword",
+  "child": "Enchanted Sword"
+ },
+ {
+  "parent_a": "Blue Slime",
+  "parent_b": "Cave Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Blue Slime",
+  "parent_b": "Illuminant Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Blue Slime",
+  "parent_b": "Eye of Cthulhu",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Blue Slime",
+  "parent_b": "Demon Eye",
+  "child": "Demon Eye"
+ },
+ {
+  "parent_a": "Red Slime",
+  "parent_b": "Purple Slime",
+  "child": "Purple Slime"
+ },
+ {
+  "parent_a": "Red Slime",
+  "parent_b": "Illuminant Slime",
+  "child": "Illuminant Slime"
+ },
+ {
+  "parent_a": "Red Slime",
+  "parent_b": "Rainbow Slime",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Red Slime",
+  "parent_b": "Enchanted Sword",
+  "child": "Enchanted Sword"
+ },
+ {
+  "parent_a": "Red Slime",
+  "parent_b": "Cave Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Red Slime",
+  "parent_b": "Illuminant Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Red Slime",
+  "parent_b": "Eye of Cthulhu",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Red Slime",
+  "parent_b": "Demon Eye",
+  "child": "Demon Eye"
+ },
+ {
+  "parent_a": "Purple Slime",
+  "parent_b": "Illuminant Slime",
+  "child": "Illuminant Slime"
+ },
+ {
+  "parent_a": "Purple Slime",
+  "parent_b": "Rainbow Slime",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Purple Slime",
+  "parent_b": "Enchanted Sword",
+  "child": "Enchanted Sword"
+ },
+ {
+  "parent_a": "Purple Slime",
+  "parent_b": "Cave Bat",
+  "child": "Illuminant Bat"
+ },
+ {
+  "parent_a": "Purple Slime",
+  "parent_b": "Illuminant Bat",
+  "child": "Illuminant Bat"
+ },
+ {
+  "parent_a": "Purple Slime",
+  "parent_b": "Eye of Cthulhu",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Purple Slime",
+  "parent_b": "Demon Eye",
+  "child": "Demon Eye"
+ },
+ {
+  "parent_a": "Illuminant Slime",
+  "parent_b": "Rainbow Slime",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Illuminant Slime",
+  "parent_b": "Enchanted Sword",
+  "child": "Enchanted Sword"
+ },
+ {
+  "parent_a": "Illuminant Slime",
+  "parent_b": "Cave Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Illuminant Slime",
+  "parent_b": "Illuminant Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Illuminant Slime",
+  "parent_b": "Eye of Cthulhu",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Illuminant Slime",
+  "parent_b": "Demon Eye",
+  "child": "Demon Eye"
+ },
+ {
+  "parent_a": "Rainbow Slime",
+  "parent_b": "Enchanted Sword",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Rainbow Slime",
+  "parent_b": "Cave Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Rainbow Slime",
+  "parent_b": "Illuminant Bat",
+  "child": "Rainbow Slime"
+ },
+ {
+  "parent_a": "Rainbow Slime",
+  "parent_b": "Eye of Cthulhu",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Rainbow Slime",
+  "parent_b": "Demon Eye",
+  "child": "Demon Eye"
+ },
+ {
+  "parent_a": "Enchanted Sword",
+  "parent_b": "Cave Bat",
+  "child": "Enchanted Sword"
+ },
+ {
+  "parent_a": "Enchanted Sword",
+  "parent_b": "Illuminant Bat",
+  "child": "Enchanted Sword"
+ },
+ {
+  "parent_a": "Enchanted Sword",
+  "parent_b": "Eye of Cthulhu",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Enchanted Sword",
+  "parent_b": "Demon Eye",
+  "child": "Demon Eye"
+ },
+ {
+  "parent_a": "Cave Bat",
+  "parent_b": "Illuminant Bat",
+  "child": "Illuminant Bat"
+ },
+ {
+  "parent_a": "Cave Bat",
+  "parent_b": "Eye of Cthulhu",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Cave Bat",
+  "parent_b": "Demon Eye",
+  "child": "Demon Eye"
+ },
+ {
+  "parent_a": "Illuminant Bat",
+  "parent_b": "Eye of Cthulhu",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Illuminant Bat",
+  "parent_b": "Demon Eye",
+  "child": "Demon Eye"
+ },
+ {
+  "parent_a": "Eye of Cthulhu",
+  "parent_b": "Demon Eye",
+  "child": "Eye of Cthulhu"
+ },
+ {
+  "parent_a": "Killamari",
+  "parent_b": "Ribbuny",
+  "child": "Killamari Primo"
+ },
+ {
+  "parent_a": "Pengullet",
+  "parent_b": "Sparkit",
+  "child": "Pengullet Lux"
+ },
+ {
+  "parent_a": "Penking",
+  "parent_b": "Rayhound",
+  "child": "Penking Lux"
+ },
+ {
+  "parent_a": "Celaray",
+  "parent_b": "Univolt",
+  "child": "Celaray Lux"
+ },
+ {
+  "parent_a": "Fuack",
+  "parent_b": "Flambelle",
+  "child": "Fuack Ignis"
+ },
+ {
+  "parent_a": "Dumud",
+  "parent_b": "Eikthyrdeer Terra",
+  "child": "Dumud Gild"
+ },
+ {
+  "parent_a": "Turtacle",
+  "parent_b": "Digtoise",
+  "child": "Turtacle Terra"
+ },
+ {
+  "parent_a": "Croajiro",
+  "parent_b": "Bushi Noct",
+  "child": "Croajiro Noct"
+ },
+ {
+  "parent_a": "Azurobe",
+  "parent_b": "Frostplume",
+  "child": "Azurobe Cryst"
+ },
+ {
+  "parent_a": "Whalaska",
+  "parent_b": "Chillet Ignis",
+  "child": "Whalaska Ignis"
+ },
+ {
+  "parent_a": "Ghangler",
+  "parent_b": "Sootseer",
+  "child": "Ghangler Ignis"
+ },
+ {
+  "parent_a": "Finsider",
+  "parent_b": "Gobfin Ignis",
+  "child": "Finsider Ignis"
+ },
+ {
+  "parent_a": "Tanzee",
+  "parent_b": "Flambelle",
+  "child": "Tanzee Ignis"
+ },
+ {
+  "parent_a": "Univolt",
+  "parent_b": "Frostplume",
+  "child": "Univolt Cryst"
+ },
+ {
+  "parent_a": "Rayhound",
+  "parent_b": "Foxcicle",
+  "child": "Rayhound Cryst"
+ },
+ {
+  "parent_a": "Beakon",
+  "parent_b": "Frostplume",
+  "child": "Beakon Cryst"
+ },
+ {
+  "parent_a": "Woolipop",
+  "parent_b": "Kikit",
+  "child": "Woolipop Terra"
+ },
+ {
+  "parent_a": "Prixter",
+  "parent_b": "Helzephyr Lux",
+  "child": "Prixter Lux"
+ },
+ {
+  "parent_a": "Smokie",
+  "parent_b": "Munchill",
+  "child": "Smokie Cryst"
+ },
+ {
+  "parent_a": "Nitemary",
+  "parent_b": "Petallia",
+  "child": "Nitemary Botan"
+ },
+ {
+  "parent_a": "Starryon",
+  "parent_b": "Celesdir",
+  "child": "Starryon Primo"
+ },
+ {
+  "parent_a": "Gloopie",
+  "parent_b": "Valentail",
+  "child": "Gloopie Primo"
+ },
+ {
+  "parent_a": "Sibelyx",
+  "parent_b": "Lapure",
+  "child": "Sibelyx Primo"
+ },
+ {
+  "parent_a": "Knocklem",
+  "parent_b": "Ragnahawk",
+  "child": "Knocklem Ignis"
+ },
+ {
+  "parent_a": "Petallia",
+  "parent_b": "Bushi",
+  "child": "Petallia Ignis"
+ },
+ {
+  "parent_a": "Celesdir",
+  "parent_b": "Kitsun Noct",
+  "child": "Celesdir Noct"
+ },
+ {
+  "parent_a": "Polapup",
+  "parent_b": "Surfent Terra",
+  "child": "Polapup Terra"
+ },
+ {
+  "parent_a": "Solmora",
+  "parent_b": "Slowatt",
+  "child": "Solmora Lux"
+ },
+ {
+  "parent_a": "Dualith",
+  "parent_b": "Sootseer",
+  "child": "Dualith Noct"
+ },
+ {
+  "parent_a": "Tetroise",
+  "parent_b": "Celesdir",
+  "child": "Tetroise Primo"
+ },
+ {
+  "parent_a": "Eidrolon",
+  "parent_b": "Suzaku",
+  "child": "Eidrolon Ignis"
+ },
+ {
+  "parent_a": "Moldron",
+  "parent_b": "Reptyro Cryst",
+  "child": "Moldron Cryst"
+ },
+ {
+  "parent_a": "Pierdon",
+  "parent_b": "Wumpo",
+  "child": "Pierdon Cryst"
+ },
+ {
+  "parent_a": "Skutlass",
+  "parent_b": "Gobfin Ignis",
+  "child": "Skutlass Ignis"
+ },
+ {
+  "parent_a": "Snock",
+  "parent_b": "Turtacle Terra",
+  "child": "Snock Lux"
+ },
+ {
+  "parent_a": "Needoll",
+  "parent_b": "Prunelia",
+  "child": "Needoll Noct"
+ },
+ {
+  "parent_a": "Elgrove",
+  "parent_b": "Pierdon Cryst",
+  "child": "Elgrove Cryst"
+ },
+ {
+  "parent_a": "Frostallion",
+  "parent_b": "Frostallion",
+  "child": "Frostallion"
+ },
+ {
+  "parent_a": "Jetragon",
+  "parent_b": "Jetragon",
+  "child": "Jetragon"
+ },
+ {
+  "parent_a": "Paladius",
+  "parent_b": "Paladius",
+  "child": "Paladius"
+ },
+ {
+  "parent_a": "Necromus",
+  "parent_b": "Necromus",
+  "child": "Necromus"
+ },
+ {
+  "parent_a": "Lyleen",
+  "parent_b": "Lyleen",
+  "child": "Lyleen"
+ },
+ {
+  "parent_a": "Faleris",
+  "parent_b": "Faleris",
+  "child": "Faleris"
+ },
+ {
+  "parent_a": "Grizzbolt",
+  "parent_b": "Grizzbolt",
+  "child": "Grizzbolt"
+ },
+ {
+  "parent_a": "Orserk",
+  "parent_b": "Orserk",
+  "child": "Orserk"
+ },
+ {
+  "parent_a": "Shadowbeak",
+  "parent_b": "Shadowbeak",
+  "child": "Shadowbeak"
+ },
+ {
+  "parent_a": "Bellanoir Libero",
+  "parent_b": "Bellanoir Libero",
+  "child": "Bellanoir Libero"
+ },
+ {
+  "parent_a": "Blazamut Ryu",
+  "parent_b": "Blazamut Ryu",
+  "child": "Blazamut Ryu"
+ },
+ {
+  "parent_a": "Mimog",
+  "parent_b": "Mimog",
+  "child": "Mimog"
+ },
+ {
+  "parent_a": "Selyne",
+  "parent_b": "Selyne",
+  "child": "Selyne"
+ },
+ {
+  "parent_a": "Xenovader",
+  "parent_b": "Xenovader",
+  "child": "Xenovader"
+ },
+ {
+  "parent_a": "Xenogard",
+  "parent_b": "Xenogard",
+  "child": "Xenogard"
+ },
+ {
+  "parent_a": "Xenolord",
+  "parent_b": "Xenolord",
+  "child": "Xenolord"
+ },
+ {
+  "parent_a": "Bastigor",
+  "parent_b": "Bastigor",
+  "child": "Bastigor"
+ },
+ {
+  "parent_a": "Green Slime",
+  "parent_b": "Green Slime",
+  "child": "Green Slime"
+ },
+ {
+  "parent_a": "Cave Bat",
+  "parent_b": "Cave Bat",
+  "child": "Cave Bat"
+ },
+ {
+  "parent_a": "Neptilius",
+  "parent_b": "Neptilius",
+  "child": "Neptilius"
+ },
+ {
+  "parent_a": "Hartalis",
+  "parent_b": "Hartalis",
+  "child": "Hartalis"
+ },
+ {
+  "parent_a": "Shaolong",
+  "parent_b": "Shaolong",
+  "child": "Shaolong"
+ },
+ {
+  "parent_a": "Dandilord",
+  "parent_b": "Dandilord",
+  "child": "Dandilord"
+ },
+ {
+  "parent_a": "Silvance",
+  "parent_b": "Silvance",
+  "child": "Silvance"
+ },
+ {
+  "parent_a": "Relaxaurus Lux",
+  "parent_b": "Relaxaurus Lux",
+  "child": "Relaxaurus Lux"
+ },
+ {
+  "parent_a": "Mossanda Lux",
+  "parent_b": "Mossanda Lux",
+  "child": "Mossanda Lux"
+ },
+ {
+  "parent_a": "Panthalus",
+  "parent_b": "Panthalus",
+  "child": "Panthalus"
+ },
+ {
+  "parent_a": "Astralym",
+  "parent_b": "Astralym",
+  "child": "Astralym"
+ }
+]
