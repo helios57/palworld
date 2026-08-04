@@ -1,0 +1,3834 @@
+{
+ "Astralym": {
+  "paldeck": "204",
+  "elements": [],
+  "combi_rank": 10,
+  "in_generic_pool": false,
+  "work": {}
+ },
+ "Panthalus": {
+  "paldeck": "203",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 20,
+  "in_generic_pool": false,
+  "work": {}
+ },
+ "Aegidron": {
+  "paldeck": "184",
+  "elements": [
+   "Dragon",
+   "Ground"
+  ],
+  "combi_rank": 30,
+  "in_generic_pool": true,
+  "work": {
+   "Mining": 8
+  }
+ },
+ "Shaolong": {
+  "paldeck": "192",
+  "elements": [
+   "Dragon",
+   "Water"
+  ],
+  "combi_rank": 40,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 8,
+   "Gathering": 5
+  }
+ },
+ "Bastigor": {
+  "paldeck": "191",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 50,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 6,
+   "Mining": 5,
+   "Cooling": 8
+  }
+ },
+ "Dandilord": {
+  "paldeck": "194",
+  "elements": [
+   "Grass",
+   "Dark"
+  ],
+  "combi_rank": 60,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 8,
+   "Handiwork": 6,
+   "Gathering": 5,
+   "Medicine": 6,
+   "Transporting": 3
+  }
+ },
+ "Jetragon": {
+  "paldeck": "202",
+  "elements": [
+   "Dragon"
+  ],
+  "combi_rank": 70,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 8
+  }
+ },
+ "Silvance": {
+  "paldeck": "193",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 80,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 6,
+   "Handiwork": 6,
+   "Gathering": 4,
+   "Medicine": 8,
+   "Transporting": 2
+  }
+ },
+ "Hartalis": {
+  "paldeck": "197",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 90,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 7,
+   "Lumbering": 7
+  }
+ },
+ "Blazamut Ryu": {
+  "paldeck": "137B",
+  "elements": [
+   "Dragon",
+   "Fire"
+  ],
+  "combi_rank": 100,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 6,
+   "Mining": 7
+  }
+ },
+ "Frostallion Noct": {
+  "paldeck": "200B",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 110,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 7
+  }
+ },
+ "Orserk": {
+  "paldeck": "187",
+  "elements": [
+   "Dragon",
+   "Electric"
+  ],
+  "combi_rank": 120,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 8,
+   "Handiwork": 3,
+   "Transporting": 4
+  }
+ },
+ "Bellanoir Libero": {
+  "paldeck": "195B",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 130,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 6,
+   "Medicine": 7,
+   "Transporting": 4
+  }
+ },
+ "Eidrolon Ignis": {
+  "paldeck": "171B",
+  "elements": [
+   "Dragon",
+   "Fire"
+  ],
+  "combi_rank": 140,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 6,
+   "Transporting": 6
+  }
+ },
+ "Frostallion": {
+  "paldeck": "200",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 150,
+  "in_generic_pool": false,
+  "work": {
+   "Cooling": 7
+  }
+ },
+ "Neptilius": {
+  "paldeck": "201",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 160,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 7
+  }
+ },
+ "Jormuntide Ignis": {
+  "paldeck": "121B",
+  "elements": [
+   "Dragon",
+   "Fire"
+  ],
+  "combi_rank": 170,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 7
+  }
+ },
+ "Paladius": {
+  "paldeck": "198",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 180,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 6,
+   "Mining": 6
+  }
+ },
+ "Necromus": {
+  "paldeck": "199",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 190,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 6,
+   "Mining": 6
+  }
+ },
+ "Tetroise Primo": {
+  "paldeck": "142B",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 200,
+  "in_generic_pool": false,
+  "work": {
+   "Mining": 6
+  }
+ },
+ "Knocklem Ignis": {
+  "paldeck": "159B",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 210,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 5,
+   "Mining": 7,
+   "Transporting": 7
+  }
+ },
+ "Lyleen Noct": {
+  "paldeck": "186B",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 220,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 5,
+   "Gathering": 6,
+   "Medicine": 7
+  }
+ },
+ "Ophydia": {
+  "paldeck": "175",
+  "elements": [
+   "Grass",
+   "Water"
+  ],
+  "combi_rank": 230,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 5,
+   "Planting": 7
+  }
+ },
+ "Lyleen": {
+  "paldeck": "186",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 240,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 7,
+   "Handiwork": 5,
+   "Gathering": 6,
+   "Medicine": 5
+  }
+ },
+ "Dualith Noct": {
+  "paldeck": "138B",
+  "elements": [
+   "Ground",
+   "Dark"
+  ],
+  "combi_rank": 250,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 3,
+   "Gathering": 3,
+   "Lumbering": 5,
+   "Mining": 6,
+   "Transporting": 6
+  }
+ },
+ "Knocklem": {
+  "paldeck": "159",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 260,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 4,
+   "Mining": 7,
+   "Transporting": 7
+  }
+ },
+ "Celesdir Noct": {
+  "paldeck": "157B",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 270,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 4,
+   "Lumbering": 8
+  }
+ },
+ "Solenne": {
+  "paldeck": "182",
+  "elements": [
+   "Dark",
+   "Neutral"
+  ],
+  "combi_rank": 280,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 8,
+   "Gathering": 4,
+   "Transporting": 2
+  }
+ },
+ "Renjishi": {
+  "paldeck": "183",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 290,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 8,
+   "Handiwork": 6,
+   "Gathering": 5,
+   "Transporting": 5
+  }
+ },
+ "Eidrolon": {
+  "paldeck": "171",
+  "elements": [
+   "Dragon",
+   "Dark"
+  ],
+  "combi_rank": 300,
+  "in_generic_pool": true,
+  "work": {
+   "Transporting": 6
+  }
+ },
+ "Selyne": {
+  "paldeck": "190",
+  "elements": [
+   "Dark",
+   "Neutral"
+  ],
+  "combi_rank": 360,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 7,
+   "Medicine": 6,
+   "Transporting": 3
+  }
+ },
+ "Whalaska Ignis": {
+  "paldeck": "151B",
+  "elements": [
+   "Ice",
+   "Fire"
+  ],
+  "combi_rank": 370,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 5,
+   "Cooling": 6
+  }
+ },
+ "Moldron Cryst": {
+  "paldeck": "105B",
+  "elements": [
+   "Ice",
+   "Ground"
+  ],
+  "combi_rank": 380,
+  "in_generic_pool": false,
+  "work": {
+   "Mining": 5,
+   "Cooling": 5
+  }
+ },
+ "Flaracle": {
+  "paldeck": "174",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 390,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 7,
+   "Handiwork": 6,
+   "Transporting": 2
+  }
+ },
+ "Xenolord": {
+  "paldeck": "196",
+  "elements": [
+   "Dark",
+   "Dragon"
+  ],
+  "combi_rank": 400,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 2
+  }
+ },
+ "Blazamut": {
+  "paldeck": "137",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 410,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 6,
+   "Mining": 7
+  }
+ },
+ "Azurmane": {
+  "paldeck": "161",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 420,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 5
+  }
+ },
+ "Starryon Primo": {
+  "paldeck": "130B",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 430,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 7
+  }
+ },
+ "Elgrove Cryst": {
+  "paldeck": "81B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 440,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 3,
+   "Mining": 3,
+   "Cooling": 5,
+   "Transporting": 3
+  }
+ },
+ "Faleris Aqua": {
+  "paldeck": "188B",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 450,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 6,
+   "Transporting": 5
+  }
+ },
+ "Pierdon Cryst": {
+  "paldeck": "131B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 460,
+  "in_generic_pool": false,
+  "work": {
+   "Mining": 5,
+   "Cooling": 6
+  }
+ },
+ "Cryolinx Terra": {
+  "paldeck": "132B",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 470,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 2,
+   "Lumbering": 6,
+   "Mining": 5,
+   "Transporting": 4
+  }
+ },
+ "Anubis": {
+  "paldeck": "139",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 480,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 6,
+   "Mining": 6,
+   "Transporting": 4
+  }
+ },
+ "Astegon": {
+  "paldeck": "158",
+  "elements": [
+   "Dragon",
+   "Dark"
+  ],
+  "combi_rank": 490,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 3,
+   "Mining": 7
+  }
+ },
+ "Faleris": {
+  "paldeck": "188",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 500,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 6,
+   "Transporting": 3
+  }
+ },
+ "Dualith": {
+  "paldeck": "138",
+  "elements": [
+   "Ground",
+   "Grass"
+  ],
+  "combi_rank": 510,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Gathering": 3,
+   "Lumbering": 5,
+   "Mining": 6,
+   "Transporting": 6
+  }
+ },
+ "Dupin": {
+  "paldeck": "176",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 520,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 7,
+   "Handiwork": 5,
+   "Medicine": 4,
+   "Transporting": 2
+  }
+ },
+ "Roujay": {
+  "paldeck": "177",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 530,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 5,
+   "Transporting": 5
+  }
+ },
+ "Univolt Cryst": {
+  "paldeck": "54B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 540,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 3,
+   "Cooling": 6
+  }
+ },
+ "Shadowbeak": {
+  "paldeck": "189",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 550,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 2
+  }
+ },
+ "Silvegis": {
+  "paldeck": "160",
+  "elements": [
+   "Dragon"
+  ],
+  "combi_rank": 560,
+  "in_generic_pool": true,
+  "work": {
+   "Lumbering": 6
+  }
+ },
+ "Celesdir": {
+  "paldeck": "157",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 570,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 4,
+   "Lumbering": 7
+  }
+ },
+ "Beakon Cryst": {
+  "paldeck": "96B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 580,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 5,
+   "Transporting": 5
+  }
+ },
+ "Jormuntide": {
+  "paldeck": "121",
+  "elements": [
+   "Dragon",
+   "Water"
+  ],
+  "combi_rank": 590,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 7
+  }
+ },
+ "Reptyro Cryst": {
+  "paldeck": "129B",
+  "elements": [
+   "Ice",
+   "Ground"
+  ],
+  "combi_rank": 600,
+  "in_generic_pool": false,
+  "work": {
+   "Mining": 5,
+   "Cooling": 5
+  }
+ },
+ "Wumpo Botan": {
+  "paldeck": "134B",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 610,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Lumbering": 5,
+   "Transporting": 6
+  }
+ },
+ "Bellanoir": {
+  "paldeck": "195",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 620,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 5,
+   "Medicine": 5,
+   "Transporting": 4
+  }
+ },
+ "Warsect Terra": {
+  "paldeck": "113B",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 630,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 2,
+   "Mining": 5,
+   "Transporting": 5
+  }
+ },
+ "Menasting Terra": {
+  "paldeck": "99B",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 640,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 3,
+   "Mining": 6
+  }
+ },
+ "Sibelyx Primo": {
+  "paldeck": "116B",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 650,
+  "in_generic_pool": false,
+  "work": {
+   "Medicine": 3,
+   "Farming": 4
+  }
+ },
+ "Whalaska": {
+  "paldeck": "151",
+  "elements": [
+   "Ice",
+   "Water"
+  ],
+  "combi_rank": 710,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 5,
+   "Cooling": 6
+  }
+ },
+ "Ghangler Ignis": {
+  "paldeck": "97B",
+  "elements": [
+   "Fire",
+   "Water"
+  ],
+  "combi_rank": 720,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 5,
+   "Watering": 5,
+   "Transporting": 2
+  }
+ },
+ "Gildane": {
+  "paldeck": "154",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 730,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 5
+  }
+ },
+ "Suzaku Aqua": {
+  "paldeck": "122B",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 740,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 6
+  }
+ },
+ "Moldron": {
+  "paldeck": "105",
+  "elements": [
+   "Fire",
+   "Ground"
+  ],
+  "combi_rank": 750,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 5,
+   "Mining": 5
+  }
+ },
+ "Mycora": {
+  "paldeck": "179",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 760,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 6,
+   "Handiwork": 4,
+   "Gathering": 4,
+   "Medicine": 6
+  }
+ },
+ "Relaxaurus Lux": {
+  "paldeck": "94B",
+  "elements": [
+   "Dragon",
+   "Electric"
+  ],
+  "combi_rank": 770,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 4,
+   "Transporting": 3
+  }
+ },
+ "Splatterina": {
+  "paldeck": "153",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 780,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 6,
+   "Lumbering": 3,
+   "Medicine": 5,
+   "Transporting": 2
+  }
+ },
+ "Tetroise": {
+  "paldeck": "142",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 790,
+  "in_generic_pool": true,
+  "work": {
+   "Mining": 4
+  }
+ },
+ "Kitsun Noct": {
+  "paldeck": "111B",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 800,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 4
+  }
+ },
+ "Lapure": {
+  "paldeck": "170",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 810,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 6,
+   "Gathering": 5
+  }
+ },
+ "Petallia Ignis": {
+  "paldeck": "89B",
+  "elements": [
+   "Grass",
+   "Fire"
+  ],
+  "combi_rank": 820,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 4,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Medicine": 4,
+   "Transporting": 2
+  }
+ },
+ "Wumpo": {
+  "paldeck": "134",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 830,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 3,
+   "Lumbering": 5,
+   "Cooling": 5,
+   "Transporting": 6
+  }
+ },
+ "Bushi Noct": {
+  "paldeck": "85B",
+  "elements": [
+   "Fire",
+   "Dark"
+  ],
+  "combi_rank": 840,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 2,
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Lumbering": 5,
+   "Transporting": 2
+  }
+ },
+ "Prixter Lux": {
+  "paldeck": "141B",
+  "elements": [
+   "Electric",
+   "Ground"
+  ],
+  "combi_rank": 850,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 3,
+   "Gathering": 2,
+   "Lumbering": 4,
+   "Medicine": 2
+  }
+ },
+ "Frostplume": {
+  "paldeck": "114",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 860,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 4
+  }
+ },
+ "Sekhmet": {
+  "paldeck": "140",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 870,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 6,
+   "Mining": 3,
+   "Transporting": 2
+  }
+ },
+ "Ghangler": {
+  "paldeck": "97",
+  "elements": [
+   "Dark",
+   "Water"
+  ],
+  "combi_rank": 880,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 5,
+   "Transporting": 2
+  }
+ },
+ "Loomen": {
+  "paldeck": "180",
+  "elements": [
+   "Dark",
+   "Fire"
+  ],
+  "combi_rank": 890,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 4,
+   "Handiwork": 4,
+   "Medicine": 4
+  }
+ },
+ "Fenglope Lux": {
+  "paldeck": "83B",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 900,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 5,
+   "Lumbering": 4
+  }
+ },
+ "Helzephyr Lux": {
+  "paldeck": "80B",
+  "elements": [
+   "Dark",
+   "Electric"
+  ],
+  "combi_rank": 960,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 4,
+   "Transporting": 5
+  }
+ },
+ "Venusa": {
+  "paldeck": "178",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 970,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 6,
+   "Gathering": 6,
+   "Medicine": 5,
+   "Transporting": 2
+  }
+ },
+ "Sootseer": {
+  "paldeck": "135",
+  "elements": [
+   "Dark",
+   "Fire"
+  ],
+  "combi_rank": 980,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 3,
+   "Handiwork": 3,
+   "Gathering": 2,
+   "Mining": 3,
+   "Farming": 2
+  }
+ },
+ "Xenogard": {
+  "paldeck": "146",
+  "elements": [
+   "Dragon"
+  ],
+  "combi_rank": 990,
+  "in_generic_pool": false,
+  "work": {
+   "Mining": 4
+  }
+ },
+ "Solmora Lux": {
+  "paldeck": "169B",
+  "elements": [
+   "Water",
+   "Electric"
+  ],
+  "combi_rank": 1000,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 4,
+   "Generating_Electricity": 6
+  }
+ },
+ "Majex": {
+  "paldeck": "115",
+  "elements": [
+   "Dark",
+   "Fire"
+  ],
+  "combi_rank": 1010,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 4,
+   "Handiwork": 5,
+   "Medicine": 3,
+   "Transporting": 2
+  }
+ },
+ "Grizzbolt": {
+  "paldeck": "185",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 1020,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 5,
+   "Handiwork": 4,
+   "Lumbering": 3,
+   "Transporting": 5
+  }
+ },
+ "Braloha": {
+  "paldeck": "110",
+  "elements": [
+   "Grass",
+   "Ground"
+  ],
+  "combi_rank": 1030,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 5,
+   "Gathering": 5,
+   "Mining": 3
+  }
+ },
+ "Cryolinx": {
+  "paldeck": "132",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 1040,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 3,
+   "Lumbering": 4,
+   "Cooling": 4,
+   "Transporting": 4
+  }
+ },
+ "Ragnahawk": {
+  "paldeck": "104",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 1050,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 4,
+   "Transporting": 5
+  }
+ },
+ "Reptyro": {
+  "paldeck": "129",
+  "elements": [
+   "Fire",
+   "Ground"
+  ],
+  "combi_rank": 1060,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 5,
+   "Mining": 5
+  }
+ },
+ "Mammorest Cryst": {
+  "paldeck": "87B",
+  "elements": [
+   "Ice",
+   "Ground"
+  ],
+  "combi_rank": 1070,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 5,
+   "Mining": 4,
+   "Cooling": 5
+  }
+ },
+ "Broncherry Aqua": {
+  "paldeck": "108B",
+  "elements": [
+   "Grass",
+   "Water"
+  ],
+  "combi_rank": 1080,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 5
+  }
+ },
+ "Relaxaurus": {
+  "paldeck": "94",
+  "elements": [
+   "Dragon",
+   "Water"
+  ],
+  "combi_rank": 1090,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 3,
+   "Transporting": 3
+  }
+ },
+ "Polapup Terra": {
+  "paldeck": "72B",
+  "elements": [
+   "Ice",
+   "Ground"
+  ],
+  "combi_rank": 1100,
+  "in_generic_pool": false,
+  "work": {
+   "Mining": 4,
+   "Cooling": 4
+  }
+ },
+ "Pierdon": {
+  "paldeck": "131",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 1110,
+  "in_generic_pool": true,
+  "work": {
+   "Mining": 5
+  }
+ },
+ "Menasting": {
+  "paldeck": "99",
+  "elements": [
+   "Dark",
+   "Ground"
+  ],
+  "combi_rank": 1120,
+  "in_generic_pool": true,
+  "work": {
+   "Lumbering": 3,
+   "Mining": 5
+  }
+ },
+ "Helzephyr": {
+  "paldeck": "80",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1130,
+  "in_generic_pool": true,
+  "work": {
+   "Transporting": 4
+  }
+ },
+ "Omascul": {
+  "paldeck": "150",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1140,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 5
+  }
+ },
+ "Starryon": {
+  "paldeck": "130",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1150,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 5
+  }
+ },
+ "Verdash": {
+  "paldeck": "152",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1160,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 4,
+   "Handiwork": 5,
+   "Gathering": 5,
+   "Lumbering": 3,
+   "Transporting": 3
+  }
+ },
+ "Gildra": {
+  "paldeck": "120",
+  "elements": [
+   "Dark",
+   "Ground"
+  ],
+  "combi_rank": 1170,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 5,
+   "Medicine": 4,
+   "Transporting": 2
+  }
+ },
+ "Wistella": {
+  "paldeck": "181",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1180,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 6,
+   "Medicine": 6,
+   "Transporting": 1
+  }
+ },
+ "Bulldosu": {
+  "paldeck": "156",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 1190,
+  "in_generic_pool": true,
+  "work": {
+   "Mining": 4,
+   "Transporting": 3
+  }
+ },
+ "Suzaku": {
+  "paldeck": "122",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 1200,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 5
+  }
+ },
+ "Quivern": {
+  "paldeck": "124",
+  "elements": [
+   "Dragon"
+  ],
+  "combi_rank": 1210,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 2,
+   "Gathering": 3,
+   "Mining": 4,
+   "Transporting": 5
+  }
+ },
+ "Azurobe Cryst": {
+  "paldeck": "41B",
+  "elements": [
+   "Ice",
+   "Dragon"
+  ],
+  "combi_rank": 1220,
+  "in_generic_pool": false,
+  "work": {
+   "Cooling": 4
+  }
+ },
+ "Nitemary": {
+  "paldeck": "148",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1230,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 4,
+   "Transporting": 2
+  }
+ },
+ "Palumba": {
+  "paldeck": "106",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1240,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 4,
+   "Gathering": 4,
+   "Mining": 5
+  }
+ },
+ "Nyafia": {
+  "paldeck": "143",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1250,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 4,
+   "Gathering": 4,
+   "Lumbering": 2,
+   "Transporting": 3
+  }
+ },
+ "Icelyn": {
+  "paldeck": "119",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 1260,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 5,
+   "Medicine": 4,
+   "Cooling": 5,
+   "Transporting": 2
+  }
+ },
+ "Blazehowl Noct": {
+  "paldeck": "112B",
+  "elements": [
+   "Fire",
+   "Dark"
+  ],
+  "combi_rank": 1270,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 5,
+   "Lumbering": 3
+  }
+ },
+ "Warsect": {
+  "paldeck": "113",
+  "elements": [
+   "Ground",
+   "Grass"
+  ],
+  "combi_rank": 1280,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Lumbering": 4,
+   "Transporting": 5
+  }
+ },
+ "Loupmoon Cryst": {
+  "paldeck": "56B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 1290,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 4,
+   "Cooling": 4
+  }
+ },
+ "Quivern Botan": {
+  "paldeck": "124B",
+  "elements": [
+   "Dragon",
+   "Grass"
+  ],
+  "combi_rank": 1300,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 5,
+   "Handiwork": 2,
+   "Gathering": 4,
+   "Mining": 3,
+   "Transporting": 4
+  }
+ },
+ "Incineram Noct": {
+  "paldeck": "91B",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1310,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 3,
+   "Mining": 4,
+   "Transporting": 3
+  }
+ },
+ "Nitemary Botan": {
+  "paldeck": "148B",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1320,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 4,
+   "Transporting": 2
+  }
+ },
+ "Turtacle Terra": {
+  "paldeck": "37B",
+  "elements": [
+   "Water",
+   "Ground"
+  ],
+  "combi_rank": 1330,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 2,
+   "Mining": 3,
+   "Transporting": 1
+  }
+ },
+ "Mammorest": {
+  "paldeck": "87",
+  "elements": [
+   "Grass",
+   "Ground"
+  ],
+  "combi_rank": 1340,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 4,
+   "Lumbering": 4,
+   "Mining": 4
+  }
+ },
+ "Tropicaw": {
+  "paldeck": "173",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1350,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 5,
+   "Gathering": 5
+  }
+ },
+ "Blazehowl": {
+  "paldeck": "112",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 1360,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 5,
+   "Lumbering": 3
+  }
+ },
+ "Solmora": {
+  "paldeck": "169",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 1370,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 4
+  }
+ },
+ "Broncherry": {
+  "paldeck": "108",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1380,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 5
+  }
+ },
+ "Prunelia": {
+  "paldeck": "147",
+  "elements": [
+   "Grass",
+   "Dark"
+  ],
+  "combi_rank": 1390,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 1,
+   "Gathering": 2,
+   "Medicine": 3,
+   "Transporting": 1
+  }
+ },
+ "Dynamoff": {
+  "paldeck": "172",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 1400,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 6,
+   "Gathering": 3,
+   "Transporting": 3
+  }
+ },
+ "Leafan": {
+  "paldeck": "90",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1410,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Transporting": 2
+  }
+ },
+ "Skutlass": {
+  "paldeck": "128",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 1420,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 4,
+   "Gathering": 1,
+   "Lumbering": 4
+  }
+ },
+ "Vanwyrm Cryst": {
+  "paldeck": "64B",
+  "elements": [
+   "Ice",
+   "Dark"
+  ],
+  "combi_rank": 1430,
+  "in_generic_pool": false,
+  "work": {
+   "Cooling": 2,
+   "Transporting": 3
+  }
+ },
+ "Mossanda Lux": {
+  "paldeck": "102B",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 1440,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 4,
+   "Handiwork": 3,
+   "Lumbering": 4,
+   "Transporting": 4
+  }
+ },
+ "Shroomer Noct": {
+  "paldeck": "118B",
+  "elements": [
+   "Grass",
+   "Dark"
+  ],
+  "combi_rank": 1450,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Lumbering": 2
+  }
+ },
+ "Dogen": {
+  "paldeck": "155",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 1460,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 4,
+   "Gathering": 3,
+   "Lumbering": 3,
+   "Medicine": 2,
+   "Transporting": 3
+  }
+ },
+ "Incineram": {
+  "paldeck": "91",
+  "elements": [
+   "Fire",
+   "Dark"
+  ],
+  "combi_rank": 1470,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 3,
+   "Handiwork": 2,
+   "Mining": 3,
+   "Transporting": 2
+  }
+ },
+ "Vaelet": {
+  "paldeck": "66",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1480,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Medicine": 3,
+   "Transporting": 2,
+   "Farming": 2
+  }
+ },
+ "Wixen Noct": {
+  "paldeck": "78B",
+  "elements": [
+   "Fire",
+   "Dark"
+  ],
+  "combi_rank": 1490,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 4,
+   "Handiwork": 4,
+   "Transporting": 2
+  }
+ },
+ "Snock Lux": {
+  "paldeck": "163B",
+  "elements": [
+   "Electric",
+   "Ground"
+  ],
+  "combi_rank": 1500,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 4
+  }
+ },
+ "Prixter": {
+  "paldeck": "141",
+  "elements": [
+   "Dark",
+   "Ground"
+  ],
+  "combi_rank": 1510,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2,
+   "Lumbering": 4,
+   "Medicine": 2
+  }
+ },
+ "Shroomer": {
+  "paldeck": "118",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1520,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 2,
+   "Gathering": 3,
+   "Lumbering": 2,
+   "Farming": 3
+  }
+ },
+ "Kingpaca Cryst": {
+  "paldeck": "21B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 1530,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 4
+  }
+ },
+ "Bakemi": {
+  "paldeck": "168",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1540,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 3,
+   "Medicine": 4,
+   "Transporting": 2
+  }
+ },
+ "Digtoise": {
+  "paldeck": "107",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 1550,
+  "in_generic_pool": true,
+  "work": {
+   "Mining": 4
+  }
+ },
+ "Bushi": {
+  "paldeck": "85",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 1560,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 2,
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Lumbering": 3,
+   "Transporting": 2
+  }
+ },
+ "Felbat": {
+  "paldeck": "65",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1570,
+  "in_generic_pool": true,
+  "work": {
+   "Medicine": 3
+  }
+ },
+ "Needoll Noct": {
+  "paldeck": "100B",
+  "elements": [
+   "Dark",
+   "Grass"
+  ],
+  "combi_rank": 1580,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 3,
+   "Gathering": 3,
+   "Transporting": 1
+  }
+ },
+ "Skutlass Ignis": {
+  "paldeck": "128B",
+  "elements": [
+   "Water",
+   "Fire"
+  ],
+  "combi_rank": 1590,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 3,
+   "Watering": 2,
+   "Gathering": 2,
+   "Lumbering": 3
+  }
+ },
+ "Rayhound Cryst": {
+  "paldeck": "98B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 1600,
+  "in_generic_pool": false,
+  "work": {
+   "Cooling": 3
+  }
+ },
+ "Smokie Cryst": {
+  "paldeck": "149B",
+  "elements": [
+   "Dark",
+   "Ice"
+  ],
+  "combi_rank": 1610,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 2
+  }
+ },
+ "Dumud Gild": {
+  "paldeck": "109B",
+  "elements": [
+   "Ground",
+   "Water"
+  ],
+  "combi_rank": 1620,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 2,
+   "Mining": 2,
+   "Transporting": 1,
+   "Farming": 4
+  }
+ },
+ "Gloopie Primo": {
+  "paldeck": "48B",
+  "elements": [
+   "Water",
+   "Neutral"
+  ],
+  "combi_rank": 1630,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 2,
+   "Transporting": 2
+  }
+ },
+ "Elphidran Aqua": {
+  "paldeck": "63B",
+  "elements": [
+   "Dragon",
+   "Water"
+  ],
+  "combi_rank": 1640,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 4,
+   "Lumbering": 3
+  }
+ },
+ "Vanwyrm": {
+  "paldeck": "64",
+  "elements": [
+   "Fire",
+   "Dark"
+  ],
+  "combi_rank": 1650,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 2,
+   "Transporting": 3
+  }
+ },
+ "Polapup": {
+  "paldeck": "72",
+  "elements": [
+   "Ice",
+   "Water"
+  ],
+  "combi_rank": 1660,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 3,
+   "Cooling": 4
+  }
+ },
+ "Kitsun": {
+  "paldeck": "111",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 1670,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 3
+  }
+ },
+ "Lapiron": {
+  "paldeck": "165",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 1680,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 3,
+   "Gathering": 4,
+   "Mining": 2,
+   "Transporting": 1
+  }
+ },
+ "Beakon": {
+  "paldeck": "96",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 1690,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 4,
+   "Gathering": 2,
+   "Transporting": 5
+  }
+ },
+ "Carnibora": {
+  "paldeck": "136",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1700,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 6,
+   "Handiwork": 4,
+   "Gathering": 4,
+   "Transporting": 2
+  }
+ },
+ "Maraith": {
+  "paldeck": "117",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1710,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 4,
+   "Mining": 4
+  }
+ },
+ "Petallia": {
+  "paldeck": "89",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1720,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 4,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Medicine": 4,
+   "Transporting": 2
+  }
+ },
+ "Tarantriss": {
+  "paldeck": "71",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1730,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Medicine": 2,
+   "Transporting": 2
+  }
+ },
+ "Mimog": {
+  "paldeck": "144",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 1740,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 1,
+   "Transporting": 2
+  }
+ },
+ "Slowatt": {
+  "paldeck": "167",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 1750,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 3
+  }
+ },
+ "Smokie": {
+  "paldeck": "149",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1760,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2
+  }
+ },
+ "Hoodle": {
+  "paldeck": "166",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1770,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 1,
+   "Transporting": 1
+  }
+ },
+ "Snock": {
+  "paldeck": "163",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 1780,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 4
+  }
+ },
+ "Elizabee": {
+  "paldeck": "68",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1790,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 4,
+   "Handiwork": 4,
+   "Gathering": 4,
+   "Lumbering": 3,
+   "Medicine": 4
+  }
+ },
+ "Katress Ignis": {
+  "paldeck": "79B",
+  "elements": [
+   "Dark",
+   "Fire"
+  ],
+  "combi_rank": 1800,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 3,
+   "Handiwork": 3,
+   "Medicine": 3,
+   "Transporting": 2
+  }
+ },
+ "Sibelyx": {
+  "paldeck": "116",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 1810,
+  "in_generic_pool": true,
+  "work": {
+   "Medicine": 3,
+   "Cooling": 3,
+   "Farming": 3
+  }
+ },
+ "Xenovader": {
+  "paldeck": "145",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1820,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 3,
+   "Transporting": 2
+  }
+ },
+ "Azurobe": {
+  "paldeck": "41",
+  "elements": [
+   "Water",
+   "Dragon"
+  ],
+  "combi_rank": 1830,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 4
+  }
+ },
+ "Surfent Terra": {
+  "paldeck": "75B",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 1840,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 3
+  }
+ },
+ "Penking Lux": {
+  "paldeck": "18B",
+  "elements": [
+   "Water",
+   "Electric"
+  ],
+  "combi_rank": 1850,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 2,
+   "Generating_Electricity": 3,
+   "Handiwork": 2,
+   "Mining": 3,
+   "Transporting": 3
+  }
+ },
+ "Croajiro Noct": {
+  "paldeck": "9B",
+  "elements": [
+   "Water",
+   "Dark"
+  ],
+  "combi_rank": 1860,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Transporting": 1
+  }
+ },
+ "Pyrin Noct": {
+  "paldeck": "93B",
+  "elements": [
+   "Fire",
+   "Dark"
+  ],
+  "combi_rank": 1870,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 4,
+   "Lumbering": 3
+  }
+ },
+ "Gorirat Terra": {
+  "paldeck": "74B",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 1880,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 2,
+   "Mining": 3,
+   "Transporting": 3
+  }
+ },
+ "Dinossom Lux": {
+  "paldeck": "84B",
+  "elements": [
+   "Electric",
+   "Dragon"
+  ],
+  "combi_rank": 1890,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 3,
+   "Lumbering": 4
+  }
+ },
+ "Valentail": {
+  "paldeck": "162",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 1900,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2
+  }
+ },
+ "Dazzi Noct": {
+  "paldeck": "92B",
+  "elements": [
+   "Dark",
+   "Electric"
+  ],
+  "combi_rank": 1910,
+  "in_generic_pool": false,
+  "work": {
+   "Generating_Electricity": 1,
+   "Handiwork": 1,
+   "Medicine": 1,
+   "Transporting": 2
+  }
+ },
+ "Rayhound": {
+  "paldeck": "98",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 1920,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 4
+  }
+ },
+ "Reindrix": {
+  "paldeck": "101",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 1930,
+  "in_generic_pool": true,
+  "work": {
+   "Lumbering": 3,
+   "Cooling": 3
+  }
+ },
+ "Caprity Noct": {
+  "paldeck": "34B",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 1940,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 2,
+   "Farming": 1
+  }
+ },
+ "Chillet Ignis": {
+  "paldeck": "103B",
+  "elements": [
+   "Fire",
+   "Dragon"
+  ],
+  "combi_rank": 1950,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 4,
+   "Gathering": 3
+  }
+ },
+ "Fenglope": {
+  "paldeck": "83",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 1960,
+  "in_generic_pool": true,
+  "work": {
+   "Lumbering": 3
+  }
+ },
+ "Foxcicle": {
+  "paldeck": "95",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 1970,
+  "in_generic_pool": true,
+  "work": {
+   "Cooling": 4,
+   "Farming": 3
+  }
+ },
+ "Pyrin": {
+  "paldeck": "93",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 1980,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 4,
+   "Lumbering": 2
+  }
+ },
+ "Lullu": {
+  "paldeck": "125",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 1990,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Gathering": 2,
+   "Medicine": 3
+  }
+ },
+ "Souffline": {
+  "paldeck": "164",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2000,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 2,
+   "Transporting": 2
+  }
+ },
+ "Lunaris": {
+  "paldeck": "82",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2010,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 4,
+   "Gathering": 2,
+   "Transporting": 2
+  }
+ },
+ "Elgrove": {
+  "paldeck": "81",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2020,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Gathering": 2,
+   "Lumbering": 3,
+   "Mining": 2,
+   "Transporting": 3
+  }
+ },
+ "Woolipop Terra": {
+  "paldeck": "39B",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 2030,
+  "in_generic_pool": false,
+  "work": {
+   "Farming": 1
+  }
+ },
+ "Katress": {
+  "paldeck": "79",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2040,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 3,
+   "Medicine": 3,
+   "Transporting": 2
+  }
+ },
+ "Robinquill Terra": {
+  "paldeck": "76B",
+  "elements": [
+   "Grass",
+   "Ground"
+  ],
+  "combi_rank": 2050,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Lumbering": 2,
+   "Medicine": 2,
+   "Transporting": 2
+  }
+ },
+ "Mossanda": {
+  "paldeck": "102",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2060,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 2,
+   "Lumbering": 4,
+   "Transporting": 4
+  }
+ },
+ "Penking": {
+  "paldeck": "18",
+  "elements": [
+   "Water",
+   "Ice"
+  ],
+  "combi_rank": 2070,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 2,
+   "Mining": 3,
+   "Cooling": 2,
+   "Transporting": 3
+  }
+ },
+ "Wixen": {
+  "paldeck": "78",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 2080,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 3,
+   "Handiwork": 3,
+   "Transporting": 2
+  }
+ },
+ "Lovander": {
+  "paldeck": "69",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2090,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 3,
+   "Mining": 2,
+   "Medicine": 3,
+   "Transporting": 2
+  }
+ },
+ "Dinossom": {
+  "paldeck": "84",
+  "elements": [
+   "Grass",
+   "Dragon"
+  ],
+  "combi_rank": 2100,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Lumbering": 3
+  }
+ },
+ "Loupmoon": {
+  "paldeck": "56",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2110,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 2
+  }
+ },
+ "Grintale": {
+  "paldeck": "70",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2120,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 3
+  }
+ },
+ "Munchill": {
+  "paldeck": "86",
+  "elements": [
+   "Ice",
+   "Water"
+  ],
+  "combi_rank": 2130,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 2,
+   "Cooling": 3,
+   "Transporting": 1
+  }
+ },
+ "Gorirat": {
+  "paldeck": "74",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2140,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 2,
+   "Lumbering": 3,
+   "Transporting": 3
+  }
+ },
+ "Sweepa": {
+  "paldeck": "36",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 2150,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 3
+  }
+ },
+ "Dazemu": {
+  "paldeck": "123",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 2210,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2
+  }
+ },
+ "Kingpaca": {
+  "paldeck": "21",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2220,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2
+  }
+ },
+ "Yakumo": {
+  "paldeck": "127",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2230,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2
+  }
+ },
+ "Finsider Ignis": {
+  "paldeck": "88B",
+  "elements": [
+   "Water",
+   "Fire"
+  ],
+  "combi_rank": 2240,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 2,
+   "Watering": 2,
+   "Transporting": 1
+  }
+ },
+ "Wispaw": {
+  "paldeck": "50",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2250,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 2,
+   "Lumbering": 1,
+   "Medicine": 1,
+   "Transporting": 1
+  }
+ },
+ "Robinquill": {
+  "paldeck": "76",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2260,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Lumbering": 2,
+   "Medicine": 1,
+   "Transporting": 2
+  }
+ },
+ "Univolt": {
+  "paldeck": "54",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 2270,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 3,
+   "Lumbering": 1
+  }
+ },
+ "Elphidran": {
+  "paldeck": "63",
+  "elements": [
+   "Dragon"
+  ],
+  "combi_rank": 2280,
+  "in_generic_pool": true,
+  "work": {
+   "Lumbering": 3
+  }
+ },
+ "Dumud": {
+  "paldeck": "109",
+  "elements": [
+   "Ground",
+   "Water"
+  ],
+  "combi_rank": 2290,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 2,
+   "Mining": 2,
+   "Transporting": 1,
+   "Farming": 1
+  }
+ },
+ "Fuack Ignis": {
+  "paldeck": "5B",
+  "elements": [
+   "Water",
+   "Fire"
+  ],
+  "combi_rank": 2300,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 2,
+   "Watering": 2,
+   "Handiwork": 1,
+   "Transporting": 1
+  }
+ },
+ "Kikit": {
+  "paldeck": "126",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 2310,
+  "in_generic_pool": true,
+  "work": {
+   "Mining": 1
+  }
+ },
+ "Arsox": {
+  "paldeck": "58",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 2320,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 3,
+   "Lumbering": 2
+  }
+ },
+ "Chillet": {
+  "paldeck": "103",
+  "elements": [
+   "Ice",
+   "Dragon"
+  ],
+  "combi_rank": 2330,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1,
+   "Cooling": 2
+  }
+ },
+ "Tombat": {
+  "paldeck": "52",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2340,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2,
+   "Mining": 3,
+   "Transporting": 2
+  }
+ },
+ "Beegarde": {
+  "paldeck": "67",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2350,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 2,
+   "Gathering": 3,
+   "Lumbering": 2,
+   "Medicine": 2,
+   "Transporting": 2,
+   "Farming": 3
+  }
+ },
+ "Puffolt": {
+  "paldeck": "62",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 2360,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 2,
+   "Transporting": 1
+  }
+ },
+ "Cawgnito": {
+  "paldeck": "57",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2370,
+  "in_generic_pool": true,
+  "work": {
+   "Lumbering": 2,
+   "Farming": 1
+  }
+ },
+ "Celaray Lux": {
+  "paldeck": "7B",
+  "elements": [
+   "Water",
+   "Electric"
+  ],
+  "combi_rank": 2380,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 1,
+   "Generating_Electricity": 2,
+   "Transporting": 1
+  }
+ },
+ "Snugloo": {
+  "paldeck": "133",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 2390,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 2,
+   "Mining": 3,
+   "Cooling": 3,
+   "Transporting": 2
+  }
+ },
+ "Dazzi": {
+  "paldeck": "92",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 2400,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 3,
+   "Handiwork": 2,
+   "Transporting": 2
+  }
+ },
+ "Turtacle": {
+  "paldeck": "37",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2410,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 2,
+   "Mining": 1,
+   "Transporting": 1
+  }
+ },
+ "Needoll": {
+  "paldeck": "100",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2420,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 3,
+   "Gathering": 3,
+   "Transporting": 1
+  }
+ },
+ "Gobfin Ignis": {
+  "paldeck": "55B",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 2430,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 2,
+   "Handiwork": 2,
+   "Transporting": 1
+  }
+ },
+ "Surfent": {
+  "paldeck": "75",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2440,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 3,
+   "Farming": 2
+  }
+ },
+ "Finsider": {
+  "paldeck": "88",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2450,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 2,
+   "Transporting": 1
+  }
+ },
+ "Ribbuny Botan": {
+  "paldeck": "44B",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2460,
+  "in_generic_pool": false,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 2,
+   "Gathering": 2,
+   "Transporting": 1
+  }
+ },
+ "Kelpsea Ignis": {
+  "paldeck": "43B",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 2470,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 1,
+   "Farming": 1
+  }
+ },
+ "Muffly": {
+  "paldeck": "59",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 2480,
+  "in_generic_pool": true,
+  "work": {
+   "Cooling": 2,
+   "Transporting": 1
+  }
+ },
+ "Pengullet Lux": {
+  "paldeck": "17B",
+  "elements": [
+   "Water",
+   "Electric"
+  ],
+  "combi_rank": 2490,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 1,
+   "Generating_Electricity": 2,
+   "Handiwork": 1,
+   "Transporting": 1
+  }
+ },
+ "Foxparks Cryst": {
+  "paldeck": "29B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 2500,
+  "in_generic_pool": false,
+  "work": {
+   "Cooling": 2
+  }
+ },
+ "Hangyu Cryst": {
+  "paldeck": "38B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 2510,
+  "in_generic_pool": false,
+  "work": {
+   "Handiwork": 3,
+   "Gathering": 2,
+   "Cooling": 2,
+   "Transporting": 3
+  }
+ },
+ "Amione": {
+  "paldeck": "47",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2520,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 2,
+   "Transporting": 1
+  }
+ },
+ "Gloopie": {
+  "paldeck": "48",
+  "elements": [
+   "Water",
+   "Dark"
+  ],
+  "combi_rank": 2530,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 2,
+   "Transporting": 2
+  }
+ },
+ "Killamari Primo": {
+  "paldeck": "30B",
+  "elements": [
+   "Neutral",
+   "Water"
+  ],
+  "combi_rank": 2540,
+  "in_generic_pool": false,
+  "work": {
+   "Watering": 1,
+   "Gathering": 1,
+   "Transporting": 2
+  }
+ },
+ "Gobfin": {
+  "paldeck": "55",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2550,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 2,
+   "Transporting": 1
+  }
+ },
+ "Nitewing": {
+  "paldeck": "51",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2560,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2
+  }
+ },
+ "Galeclaw": {
+  "paldeck": "49",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2570,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 2
+  }
+ },
+ "Eikthyrdeer Terra": {
+  "paldeck": "32B",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 2580,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 2
+  }
+ },
+ "Jellroy": {
+  "paldeck": "46",
+  "elements": [
+   "Water",
+   "Dark"
+  ],
+  "combi_rank": 2590,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 1,
+   "Medicine": 1,
+   "Transporting": 1
+  }
+ },
+ "Croajiro": {
+  "paldeck": "9",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2600,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Transporting": 1
+  }
+ },
+ "Caprity": {
+  "paldeck": "34",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2610,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 2,
+   "Farming": 1
+  }
+ },
+ "Cinnamoth": {
+  "paldeck": "61",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2620,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 2,
+   "Gathering": 2,
+   "Medicine": 2
+  }
+ },
+ "Herbil": {
+  "paldeck": "10",
+  "elements": [
+   "Grass",
+   "Neutral"
+  ],
+  "combi_rank": 2630,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 1,
+   "Gathering": 1,
+   "Transporting": 1
+  }
+ },
+ "Leezpunk Ignis": {
+  "paldeck": "73B",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 2640,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 2,
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Transporting": 1
+  }
+ },
+ "Jelliette": {
+  "paldeck": "45",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2650,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 1,
+   "Transporting": 1
+  }
+ },
+ "Flopie": {
+  "paldeck": "77",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2660,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 2,
+   "Gathering": 2,
+   "Medicine": 1,
+   "Transporting": 1
+  }
+ },
+ "Leezpunk": {
+  "paldeck": "73",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2670,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Transporting": 1
+  }
+ },
+ "Direhowl": {
+  "paldeck": "33",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2680,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1
+  }
+ },
+ "Bristla": {
+  "paldeck": "60",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2690,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 2,
+   "Gathering": 2,
+   "Medicine": 2,
+   "Transporting": 1
+  }
+ },
+ "Flambelle": {
+  "paldeck": "25",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 2700,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 1,
+   "Handiwork": 1,
+   "Transporting": 1,
+   "Farming": 1
+  }
+ },
+ "Eikthyrdeer": {
+  "paldeck": "32",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2710,
+  "in_generic_pool": true,
+  "work": {
+   "Lumbering": 2
+  }
+ },
+ "Melpaca": {
+  "paldeck": "20",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2720,
+  "in_generic_pool": true,
+  "work": {
+   "Farming": 2
+  }
+ },
+ "Tocotoco": {
+  "paldeck": "53",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2730,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1
+  }
+ },
+ "Celaray": {
+  "paldeck": "7",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2740,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 1,
+   "Transporting": 1
+  }
+ },
+ "Mau Cryst": {
+  "paldeck": "27B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 2750,
+  "in_generic_pool": false,
+  "work": {
+   "Cooling": 1,
+   "Farming": 1
+  }
+ },
+ "Cattiva": {
+  "paldeck": "2",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2760,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Mining": 1,
+   "Transporting": 1
+  }
+ },
+ "Killamari": {
+  "paldeck": "30",
+  "elements": [
+   "Dark",
+   "Water"
+  ],
+  "combi_rank": 2770,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 1,
+   "Gathering": 1,
+   "Transporting": 2
+  }
+ },
+ "Hangyu": {
+  "paldeck": "38",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 2780,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Transporting": 2
+  }
+ },
+ "Fuddler": {
+  "paldeck": "31",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 2790,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 1,
+   "Mining": 1,
+   "Transporting": 1
+  }
+ },
+ "Mozzarina": {
+  "paldeck": "40",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2800,
+  "in_generic_pool": true,
+  "work": {
+   "Farming": 2
+  }
+ },
+ "Kelpsea": {
+  "paldeck": "43",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2810,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 1,
+   "Farming": 1
+  }
+ },
+ "Woolipop": {
+  "paldeck": "39",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2820,
+  "in_generic_pool": true,
+  "work": {
+   "Farming": 1
+  }
+ },
+ "Tanzee Ignis": {
+  "paldeck": "23B",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 2830,
+  "in_generic_pool": false,
+  "work": {
+   "Kindling": 1,
+   "Handiwork": 1,
+   "Lumbering": 1,
+   "Transporting": 1
+  }
+ },
+ "Swee": {
+  "paldeck": "35",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 2840,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1,
+   "Cooling": 1
+  }
+ },
+ "Jolthog Cryst": {
+  "paldeck": "15B",
+  "elements": [
+   "Ice"
+  ],
+  "combi_rank": 2850,
+  "in_generic_pool": false,
+  "work": {
+   "Cooling": 1
+  }
+ },
+ "Ribbuny": {
+  "paldeck": "44",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2860,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Transporting": 1
+  }
+ },
+ "Rooby": {
+  "paldeck": "26",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 2870,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 1,
+   "Farming": 1
+  }
+ },
+ "Rushoar": {
+  "paldeck": "28",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 2880,
+  "in_generic_pool": true,
+  "work": {
+   "Mining": 1
+  }
+ },
+ "Cremis": {
+  "paldeck": "8",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 2890,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1,
+   "Farming": 2
+  }
+ },
+ "Tanzee": {
+  "paldeck": "23",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 2900,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 1,
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Lumbering": 1,
+   "Transporting": 1
+  }
+ },
+ "Daedream": {
+  "paldeck": "22",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2910,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Transporting": 1
+  }
+ },
+ "Nox": {
+  "paldeck": "24",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2920,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1
+  }
+ },
+ "Pupperai": {
+  "paldeck": "13",
+  "elements": [
+   "Ground"
+  ],
+  "combi_rank": 2930,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1,
+   "Lumbering": 1,
+   "Transporting": 1
+  }
+ },
+ "Hoocrates": {
+  "paldeck": "19",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 2940,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1
+  }
+ },
+ "Gumoss": {
+  "paldeck": "12",
+  "elements": [
+   "Grass",
+   "Ground"
+  ],
+  "combi_rank": 2950,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 1
+  }
+ },
+ "Pengullet": {
+  "paldeck": "17",
+  "elements": [
+   "Water",
+   "Ice"
+  ],
+  "combi_rank": 2960,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 1,
+   "Cooling": 1,
+   "Transporting": 1
+  }
+ },
+ "Clovee": {
+  "paldeck": "14",
+  "elements": [
+   "Grass",
+   "Neutral"
+  ],
+  "combi_rank": 2970,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 1,
+   "Gathering": 1
+  }
+ },
+ "Fuack": {
+  "paldeck": "5",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 2980,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 1,
+   "Transporting": 1
+  }
+ },
+ "Foxparks": {
+  "paldeck": "29",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 2990,
+  "in_generic_pool": true,
+  "work": {
+   "Kindling": 1
+  }
+ },
+ "Depresso": {
+  "paldeck": "16",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 3000,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 1,
+   "Mining": 1,
+   "Transporting": 1,
+   "Farming": 1
+  }
+ },
+ "Sparkit": {
+  "paldeck": "42",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 3010,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 1,
+   "Handiwork": 1,
+   "Transporting": 1,
+   "Farming": 1
+  }
+ },
+ "Lifmunk": {
+  "paldeck": "4",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 3020,
+  "in_generic_pool": true,
+  "work": {
+   "Planting": 1,
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Lumbering": 1,
+   "Medicine": 1
+  }
+ },
+ "Jolthog": {
+  "paldeck": "15",
+  "elements": [
+   "Electric"
+  ],
+  "combi_rank": 3030,
+  "in_generic_pool": true,
+  "work": {
+   "Generating_Electricity": 1
+  }
+ },
+ "Mau": {
+  "paldeck": "27",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 3040,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1,
+   "Farming": 1
+  }
+ },
+ "Lamball": {
+  "paldeck": "1",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 3050,
+  "in_generic_pool": true,
+  "work": {
+   "Handiwork": 1,
+   "Transporting": 1,
+   "Farming": 1
+  }
+ },
+ "Vixy": {
+  "paldeck": "6",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 3060,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1,
+   "Farming": 1
+  }
+ },
+ "Teafant": {
+  "paldeck": "11",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 3070,
+  "in_generic_pool": true,
+  "work": {
+   "Watering": 1
+  }
+ },
+ "Chikipi": {
+  "paldeck": "3",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 3080,
+  "in_generic_pool": true,
+  "work": {
+   "Gathering": 1,
+   "Farming": 1
+  }
+ },
+ "Blue Slime": {
+  "paldeck": "",
+  "elements": [
+   "Water"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Transporting": 1
+  }
+ },
+ "Cave Bat": {
+  "paldeck": "",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 1
+  }
+ },
+ "Demon Eye": {
+  "paldeck": "",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Transporting": 1
+  }
+ },
+ "Enchanted Sword": {
+  "paldeck": "",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Lumbering": 1
+  }
+ },
+ "Eye of Cthulhu": {
+  "paldeck": "",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Transporting": 4
+  }
+ },
+ "Green Slime": {
+  "paldeck": "",
+  "elements": [
+   "Grass"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Transporting": 1
+  }
+ },
+ "Illuminant Bat": {
+  "paldeck": "",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Gathering": 1
+  }
+ },
+ "Illuminant Slime": {
+  "paldeck": "",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Transporting": 1
+  }
+ },
+ "Purple Slime": {
+  "paldeck": "",
+  "elements": [
+   "Dark"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Transporting": 1
+  }
+ },
+ "Rainbow Slime": {
+  "paldeck": "",
+  "elements": [
+   "Neutral"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Transporting": 1
+  }
+ },
+ "Red Slime": {
+  "paldeck": "",
+  "elements": [
+   "Fire"
+  ],
+  "combi_rank": 3100,
+  "in_generic_pool": false,
+  "work": {
+   "Transporting": 1
+  }
+ }
+}
