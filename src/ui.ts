@@ -12,7 +12,7 @@
 import { initEngine, verifyEngine, getAllPalNames, getWork } from "./engine.js";
 import { loadAllData } from "./data-loader.js";
 import { parsePlZSave } from "./save-parser.js";
-import { reachable, consolidatePlan, type ConsolidatedPlan } from "./solver.js";
+import { reachable, consolidatePlan, findBridgePals, type ConsolidatedPlan } from "./solver.js";
 
 // ---- State ----
 let ownedPals: Set<string> = new Set();
@@ -22,10 +22,6 @@ let idMap: Record<string, string> = {};
 // ---- DOM helpers ----
 function $(selector: string): HTMLElement | null {
   return document.querySelector(selector);
-}
-
-function $$(selector: string): NodeListOf<HTMLElement> {
-  return document.querySelectorAll(selector);
 }
 
 function el(tag: string, classes: string[] = [], attrs: Record<string, string> = {}): HTMLElement {
@@ -113,16 +109,63 @@ function renderTargetTags(): void {
   }
 }
 
+function renderTargetPalList(filter: string = ""): void {
+  const container = $("#target-select-list");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const lower = filter.toLowerCase();
+  const filtered = allPalNames
+    .filter((n) => n.toLowerCase().includes(lower))
+    .sort()
+    .slice(0, 100);
+
+  for (const name of filtered) {
+    const item = el("div", ["pal-select-item"], { "data-name": name });
+    if (targetPals.has(name)) item.classList.add("targeted");
+    if (ownedPals.has(name)) item.classList.add("already-owned");
+
+    const nameSpan = el("span", ["pal-name"]);
+    nameSpan.textContent = name;
+
+    const work = getWork(name);
+    const workStr = Object.entries(work)
+      .sort(([, a], [, b]) => b - a)
+      .slice(0, 3)
+      .map(([j, v]) => `${j.replace(/_/g, " ")} ${v}`)
+      .join(" · ");
+    const workSpan = el("span", ["pal-work"]);
+    workSpan.textContent = workStr || "—";
+
+    item.appendChild(nameSpan);
+    if (workStr) item.appendChild(workSpan);
+
+    // Click to add/remove as target
+    item.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (targetPals.has(name)) {
+        targetPals.delete(name);
+      } else {
+        targetPals.add(name);
+      }
+      saveState();
+      renderTargetTags();
+      updateTargetAvailability();
+    });
+
+    container.appendChild(item);
+  }
+
+  if (filtered.length === 0) {
+    container.innerHTML = '<span class="muted">No pals found matching your search.</span>';
+  }
+}
+
 function updateTargetAvailability(): void {
-  // Grey out target options that are already owned
-  const items = $$(".pal-select-item");
-  for (const item of items) {
-    const name = item.getAttribute("data-name") || "";
-    if (ownedPals.has(name)) {
-      item.classList.add("already-owned");
-    } else {
-      item.classList.remove("already-owned");
-    }
+  // Re-render both lists to reflect owned/target state changes
+  const targetInput = $("#target-search") as HTMLInputElement | null;
+  if (targetInput) {
+    renderTargetPalList(targetInput.value);
   }
 }
 
@@ -297,16 +340,40 @@ function computePlan(): void {
     return;
   }
 
-  const { depth, recipe } = reachable(Array.from(ownedPals), 8);
+  const ownedArr = Array.from(ownedPals);
+  const { depth, recipe } = reachable(ownedArr, 8);
 
   const reachableTargets = Array.from(targetPals).filter((t) => t in depth);
   const unreachable = Array.from(targetPals).filter((t) => !(t in depth));
 
   if (reachableTargets.length === 0) {
-    renderError(
-      `None of your target pals are reachable from your owned pals within 8 breeding generations. ` +
-      `Try catching more pals with different CombiRanks.`,
-    );
+    // Show bridge pal suggestions
+    const bridgePals = findBridgePals(ownedArr, unreachable, 8);
+
+    let msg = '<div class="box error"><strong>None of your target pals are reachable.</strong><br>';
+    msg += `From your ${ownedPals.size} owned pals, ${Object.keys(depth).length} of 299 species are reachable. `;
+    msg += 'You need pals at different CombiRank positions to bridge the gaps.</div>';
+
+    if (bridgePals.length > 0) {
+      msg += '<div class="box"><strong>🐣 Catch these easy foundation pals to unlock breeding:</strong>';
+      msg += '<table class="bridge-table"><tr><th>Pal</th><th>Rank</th><th>Unlocks</th><th>Rarity</th><th>Location</th></tr>';
+      for (const bp of bridgePals) {
+        const unlockStr = bp.unlocksTargets.length > 0
+          ? `🎯 ${bp.unlocksTargets.join(", ")}`
+          : `+${bp.newReachable} reachable`;
+        msg += `<tr>
+          <td><b>${bp.name}</b></td>
+          <td>${bp.rank}</td>
+          <td>${unlockStr}</td>
+          <td>${bp.rarity}</td>
+          <td>${bp.locations}</td>
+        </tr>`;
+      }
+      msg += '</table></div>';
+    }
+
+    const results = $("#results");
+    if (results) results.innerHTML = msg;
     return;
   }
 
@@ -314,21 +381,44 @@ function computePlan(): void {
     reachableTargets,
     recipe,
     depth,
-    Array.from(ownedPals),
+    ownedArr,
     allPalNames.length,
   );
 
+  renderResults(plan);
+
+  // If there are unreachable targets, show bridge pal suggestions below results
   if (unreachable.length > 0) {
-    const warning = el("div", ["box", "warning"]);
-    warning.textContent = `⚠ Could not reach: ${unreachable.join(", ")}. Try adding more owned pals with different ranks.`;
-    const results = $("#results");
-    if (results) {
-      results.innerHTML = "";
-      results.appendChild(warning);
+    const bridgePals = findBridgePals(ownedArr, unreachable, 8);
+    if (bridgePals.length > 0) {
+      const results = $("#results");
+      if (!results) return;
+
+      const box = el("div", ["box", "bridge-box"]);
+      box.innerHTML = '<strong>⚠ Some targets are not yet reachable: ' +
+        `${unreachable.join(", ")}</strong><br><br>` +
+        '<strong>🐣 Catch these foundation pals to unlock them:</strong>';
+
+      const table = el("table", ["bridge-table"]);
+      table.innerHTML = '<tr><th>Pal</th><th>Rank</th><th>Unlocks</th><th>Rarity</th><th>Location</th></tr>';
+      for (const bp of bridgePals) {
+        const unlockStr = bp.unlocksTargets.length > 0
+          ? `🎯 ${bp.unlocksTargets.join(", ")}`
+          : `+${bp.newReachable} reachable`;
+        const row = el("tr");
+        row.innerHTML = `
+          <td><b>${bp.name}</b></td>
+          <td>${bp.rank}</td>
+          <td>${unlockStr}</td>
+          <td>${bp.rarity}</td>
+          <td>${bp.locations}</td>
+        `;
+        table.appendChild(row);
+      }
+      box.appendChild(table);
+      results.appendChild(box);
     }
   }
-
-  renderResults(plan);
 }
 
 // ---- Save file handling ----
@@ -529,6 +619,18 @@ function setupSearch(): void {
   renderPalList();
 }
 
+function setupTargetSearch(): void {
+  const input = $("#target-search") as HTMLInputElement | null;
+  if (!input) return;
+
+  input.addEventListener("input", () => {
+    renderTargetPalList(input.value);
+  });
+
+  // Initial render
+  renderTargetPalList();
+}
+
 // ---- Main ----
 function setupButtons(): void {
   const computeBtn = $("#compute-btn");
@@ -570,6 +672,7 @@ async function init(): Promise<void> {
     setupDropZone();
     setupCsvInput();
     setupSearch();
+    setupTargetSearch();
     setupPresets();
     setupButtons();
     renderOwnedTags();
