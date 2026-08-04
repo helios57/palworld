@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Palworld 1.0 Breeding Calculator — optimize breeding paths from your owned pals. Drop a save file, upload CSV, or select pals manually.">
+<title>Palworld Breeding Calculator</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥚</text></svg>">
+</head>
+<body>
+
+<header>
+  <h1>🥚 Palworld Breeding Calculator</h1>
+  <p class="subtitle">Drop a save file, paste your pal list, or search — then pick targets and get the optimal breed tree.</p>
+</header>
+
+<main id="app">
+  <!-- Input Section -->
+  <section class="panel">
+    <h2>1. Your Owned Pals</h2>
+
+    <!-- Save file drop -->
+    <div class="input-block">
+      <h3>📁 Save File (PlZ format)</h3>
+      <div id="drop-zone" class="drop-zone">
+        <span class="drop-icon">📂</span>
+        <span>Drop your <strong>Level.sav</strong> file here or click to browse</span>
+        <input type="file" id="file-input" accept=".sav" hidden>
+      </div>
+      <p id="drop-status" class="status"></p>
+      <p class="note">PlZ (single-player/co-op) works in-browser. For PlM (dedicated server) use the <a href="https://github.com/helios57/palworld" target="_blank">Python extract_pals.py</a> tool.</p>
+    </div>
+
+    <!-- CSV input -->
+    <div class="input-block">
+      <h3>📋 CSV / Paste</h3>
+      <textarea id="csv-input" placeholder="Paste pal names (one per line, or comma-separated)..." rows="4"></textarea>
+      <div class="input-actions">
+        <button id="csv-file-btn" class="btn btn-sm">📎 Upload CSV</button>
+        <input type="file" id="csv-file-input" accept=".csv,.txt" hidden>
+        <button id="csv-load-btn" class="btn btn-sm btn-primary">Load</button>
+        <span id="csv-status" class="status"></span>
+      </div>
+    </div>
+
+    <!-- UI select -->
+    <div class="input-block">
+      <h3>🔍 Search & Select</h3>
+      <input type="text" id="pal-search" class="search-input" placeholder="Type a pal name to search...">
+      <p class="note">🖱 <strong>Click</strong> to add/remove from owned · 🖱 <strong>Right-click</strong> to add/remove as target</p>
+      <div id="pal-select-list" class="pal-select-list"></div>
+    </div>
+
+    <!-- Owned tags -->
+    <div class="input-block">
+      <h3>✅ Currently Owned <button id="clear-owned-btn" class="btn btn-sm btn-danger">Clear All</button></h3>
+      <div id="owned-tags" class="tags-container"></div>
+    </div>
+  </section>
+
+  <!-- Target Section -->
+  <section class="panel">
+    <h2>2. Breeding Targets <button id="clear-targets-btn" class="btn btn-sm btn-danger">Clear All</button></h2>
+    <div class="input-block">
+      <h3>🎯 Quick Presets</h3>
+      <div id="preset-buttons" class="preset-buttons"></div>
+    </div>
+    <div id="target-tags" class="tags-container"></div>
+    <button id="compute-btn" class="btn btn-primary btn-lg" disabled>⚡ Compute Breeding Plan</button>
+  </section>
+
+  <!-- Results Section -->
+  <section class="panel" id="results-panel">
+    <h2>3. Breeding Plan</h2>
+    <div id="results"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Palworld 1.0 breeding data · <a href="https://github.com/helios57/palworld" target="_blank">GitHub</a> · Powered by CombiRank formula + 164 special combos</p>
+</footer>
+
+<script type="module" src="js/ui.js"></script>
+</body>
+</html>
