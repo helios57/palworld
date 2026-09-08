@@ -2,6 +2,7 @@
   "name": "palworld-breeding",
   "version": "1.0.0",
   "description": "Palworld 1.0 breeding calculator — optimize breeding paths from your owned pals",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "test": "vitest run",
