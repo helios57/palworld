@@ -20,10 +20,10 @@ PlM (dedicated server) saves require the Python CLI tool below.
 ### Python CLI
 
 ```bash
-# Install (optional, only for PlM save extraction)
-pip install palooz  # Oodle Kraken decompression for PlM saves
+# Install (only needed for save-file reading; the breeding tools are stdlib-only)
+pip install -r tools/requirements.txt
 
-# Extract your pal list from a save file
+# Extract your pal list from a save file (PlZ and PlM both work)
 python3 tools/extract_pals.py -f /path/to/Level.sav
 
 # Generate a full breeding report
@@ -32,6 +32,50 @@ python3 tools/report_gen.py -f owned_pals.txt -t targets.txt
 # Get the exact step-by-step ordered path
 python3 tools/exact_path.py -of owned_pals.txt -tf targets.txt
 ```
+
+## Save File Tooling
+
+`Level.sav` is a GVAS blob behind a 12-byte header. Palworld 1.0 dedicated
+servers write **PlM** (Oodle Kraken); older and single-player saves use **PlZ**
+(zlib). `tools/palsave.py` reads both and writes PlZ, which the 1.0 server
+still loads and rewrites as PlM on its next autosave.
+
+```bash
+# Which bases exist, how much is stored where
+python3 tools/inspect_save.py Level.sav
+
+# Chests and contents of your main base (the one with the most objects)
+python3 tools/inspect_save.py Level.sav --base main --contents
+
+# Confirm the parser reproduces your save byte for byte before editing it
+python3 tools/inspect_save.py Level.sav --verify
+
+# Add items to the emptiest chest of the main base
+python3 tools/add_items.py Level.sav --base main --auto-chest \
+    --item AIcore:9999 --item Thermal_Core:9999 -o Level.edited.sav
+
+# Or target one container directly, and preview without writing
+python3 tools/add_items.py Level.sav --container <guid> \
+    --item AncientParts2:9999 -o out.sav --dry-run
+```
+
+Item ids are the game's **internal** names (`AIcore`, `Thermal_Core`,
+`AncientParts2`), not display names. `inspect_save.py --contents` lists the ids
+already in your world; [paldb.cc](https://paldb.cc) shows the rest under
+"code name". Quantities above a stack (9999) are split across slots
+automatically.
+
+**Installing an edited save on a dedicated server:** stop the server first, or
+it will overwrite your edit with the world it still holds in memory. Back up
+`Saved/SaveGames/<id>/` first. `add_items.py` never modifies the input file,
+refuses to run unless an untouched parse of your save round-trips byte for
+byte, and re-reads what it wrote to confirm the items landed.
+
+Notes on `palworld-save-tools` 0.24.0, which predates 1.0: it cannot parse a
+1.0 save unaided. `palsave.py` adds the new `SetProperty` type and keeps every
+`RawData` blob opaque, because several of that library's rawdata decoders
+assume the pre-1.0 layout. Structure is still fully walked, so property sizes
+are recomputed correctly on write.
 
 ## Repository Structure
 
@@ -69,10 +113,15 @@ palworld/
 │   ├── breeding_engine.py      # Core breeding library
 │   ├── report_gen.py           # Generate MD + JSON breeding reports
 │   ├── exact_path.py           # Exact dependency-ordered breeding path
-│   └── extract_pals.py         # Extract pal names from save file
+│   ├── extract_pals.py         # Extract pal names from save file
+│   ├── palsave.py              # Save library: PlZ/PlM, GVAS, item slots
+│   ├── inspect_save.py         # List bases, chests and stored items
+│   ├── add_items.py            # Add items to a storage container
+│   └── requirements.txt        # pyooz + palworld-save-tools
 └── tests/
     ├── unit/                   # Unit tests (engine, solver, parser, loader)
     ├── data/                   # Data integrity tests (ranks, combos, pool)
+    ├── python/                 # Save tooling tests (pytest, synthetic data)
     ├── e2e/                    # End-to-end Playwright tests
     └── fixtures/               # Test fixtures
 ```
@@ -106,7 +155,13 @@ npm install
 npx tsc              # Compile TypeScript → docs/js/
 npx vitest           # Run unit + data tests
 npx playwright test  # Run e2e tests
+
+pip install -r tools/requirements.txt pytest
+python -m pytest tests/python   # Save tooling tests
 ```
+
+The save tooling tests build their fixtures in-process, so no savegame is
+needed to run them and none is committed here.
 
 Re-run data from sources:
 ```bash

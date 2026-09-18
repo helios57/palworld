@@ -1,3 +1,9 @@
-# Palworld save extraction (PlM/Oodle-Kraken format)
-# Required only for extract_pals.py with dedicated server saves
-palooz
+# Dependencies for the Python save tooling.
+#
+# pyooz                Oodle Kraken decompression, required to read PlM saves
+#                      (what Palworld 1.0 dedicated servers write).
+#                      Note the import name is `ooz`, not `pyooz`.
+# palworld-save-tools  GVAS parsing, required by palsave.py, inspect_save.py
+#                      and add_items.py. extract_pals.py does not need it.
+pyooz>=0.0.8
+palworld-save-tools>=0.24.0

@@ -28,6 +28,10 @@ data/optimal_paths.json
 # Test artifacts
 test-results/
 playwright-report/
+.pytest_cache/
+
+# Edited saves produced by tools/add_items.py
+*.edited.sav
 
 # IDE
 .vscode/

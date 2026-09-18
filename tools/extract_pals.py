@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Extract owned pal names from a Palworld save file.
 
-Supports PlZ (zlib-compressed) and PlM (Oodle-Kraken) save formats.
-PlZ files are decompressed with zlib and parsed directly.
-PlM files require the ``palooz`` Python bindings (Oodle Kraken).
+Supports PlZ (zlib) and PlM (Oodle Kraken) saves. PlM is what Palworld 1.0
+dedicated servers write and needs the ``pyooz`` package; see
+``tools/requirements.txt``. Decompression is handled by :mod:`palsave`, which
+needs no GVAS parser, so this script stays dependency-light.
 """
 
 import argparse
@@ -13,6 +14,8 @@ import re
 import struct
 import sys
 import zlib
+
+import palsave
 
 # Path to project data directory (script lives in tools/)
 _DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -46,45 +49,12 @@ def load_known_ids():
 
 
 def detect_format(filepath):
-    """Detect save format by reading magic bytes.
+    """Detect save format from the file header.
 
     Returns "PlZ", "PlM", or None if unrecognized.
     """
     with open(filepath, "rb") as f:
-        header = f.read(32)
-
-    # PlM format: header contains "PlM1" or "PlM2" magic
-    # Typically at offset 8 in the wrapped header
-    if b"PlM" in header:
-        return "PlM"
-
-    # PlZ format: standard zlib header 0x78 0x9C (or 0x78 0xDA, 0x78 0x01)
-    # Some PlZ files have a custom 8-byte wrapper before the GVAS+zlib data
-    if header[:2] == b"\x78\x9c" or header[:2] == b"\x78\xda" or header[:2] == b"\x78\x01":
-        return "PlZ"
-
-    # Some PlZ files have a header with "PlZ" marker then zlib data
-    if b"PlZ" in header:
-        return "PlZ"
-
-    # Heuristic: try decompressing the whole file as zlib
-    with open(filepath, "rb") as f:
-        data = f.read()
-    try:
-        zlib.decompress(data)
-        return "PlZ"
-    except Exception:
-        pass
-
-    # Try skipping a potential wrapper prefix (common in Palworld saves)
-    for skip in [0, 4, 8, 11]:
-        try:
-            zlib.decompress(data[skip:])
-            return "PlZ"
-        except Exception:
-            continue
-
-    return None
+        return palsave.detect_format(f.read(palsave.HEADER_LEN))
 
 
 def extract_character_ids_from_gvas(data):
@@ -173,39 +143,38 @@ def extract_character_ids_from_gvas(data):
     return ids
 
 
-def extract_pals_plz(filepath, known_ids):
-    """Process a PlZ (zlib-compressed) save file.
+def decompress_save(filepath):
+    """Decompress a save file to raw GVAS bytes, or exit with a clear error.
 
-    Returns a sorted list of unique CharacterID strings found.
+    Handles both PlZ and PlM via :mod:`palsave`, falling back to a scan of
+    likely zlib offsets for files with an unusual wrapper.
     """
     with open(filepath, "rb") as f:
         data = f.read()
 
-    # Try to decompress: some PlZ files have a short wrapper prefix
-    decompressed = None
-    # First, try decompressing from various offsets
-    offsets_to_try = [0]
-    # Check for PlZ wrapper header and skip it
-    if data[:8].startswith(b"PlZ"):
-        # PlZ files may have an 8-12 byte header
-        offsets_to_try = [8, 11, 12]
+    try:
+        raw, _header = palsave.decompress_sav(data)
+        return raw
+    except palsave.UnsupportedSaveError as exc:
+        reason = str(exc)
 
-    offsets_to_try += [0, 4, 8, 11, 12]
-
-    for offset in offsets_to_try:
+    # Fallback: a bare or oddly wrapped zlib stream.
+    for offset in (0, 4, 8, 11, 12):
         try:
-            decompressed = zlib.decompress(data[offset:])
-            break
+            return zlib.decompress(data[offset:])
         except Exception:
             continue
 
-    if decompressed is None:
-        print(
-            "ERROR: Could not decompress the PlZ file. The file may be corrupted "
-            "or in an unexpected format.",
-            file=sys.stderr,
-        )
-        sys.exit(1)
+    print(f"ERROR: could not decompress {filepath}: {reason}", file=sys.stderr)
+    sys.exit(1)
+
+
+def extract_pals_from_save(filepath, known_ids):
+    """Extract CharacterIDs from a save file.
+
+    Returns a sorted list of unique CharacterID strings found.
+    """
+    decompressed = decompress_save(filepath)
 
     # Extract CharacterIDs from the GVAS data
     ids = extract_character_ids_from_gvas(decompressed)
@@ -276,27 +245,8 @@ def run(filepath, output_path=None, json_output=False):
         print(f"ERROR: File not found: {filepath}", file=sys.stderr)
         sys.exit(1)
 
-    fmt = detect_format(filepath)
-
-    if fmt == "PlM":
-        msg = (
-            "This save file is in PlM format (Oodle-Kraken compression).\n"
-            "PlM decompression requires the ``palooz`` Python bindings.\n"
-            "See the repo README for setup instructions: "
-            "https://github.com/your-repo/palworld#readme"
-        )
-        print(msg)
-        sys.exit(1)
-
-    if fmt != "PlZ":
-        print(
-            "ERROR: Unrecognized save file format. Expected PlZ (zlib) or PlM (Oodle-Kraken).",
-            file=sys.stderr,
-        )
-        sys.exit(1)
-
     known_ids, id_map = load_known_ids()
-    character_ids = extract_pals_plz(filepath, known_ids)
+    character_ids = extract_pals_from_save(filepath, known_ids)
     display_names = map_to_display_names(character_ids, id_map)
 
     if json_output:
