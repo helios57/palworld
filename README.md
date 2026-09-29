@@ -57,7 +57,21 @@ python3 tools/add_items.py Level.sav --base main --auto-chest \
 # Or target one container directly, and preview without writing
 python3 tools/add_items.py Level.sav --container <guid> \
     --item AncientParts2:9999 -o out.sav --dry-run
+
+# Who plays on this world, and at what level
+python3 tools/set_player_level.py Level.sav --list
+
+# Everyone to the level cap
+python3 tools/set_player_level.py Level.sav --all --level 80 -o out.sav
 ```
+
+Palworld stores a **cumulative** `Exp` total next to the level, so the two have
+to move together — a level with too little Exp behind it can be recalculated
+back down during play. Level 80 is the 1.0 cap and its threshold is known
+(45,859,908), so `--level 80` needs no `--exp`; any other level requires an
+explicit `--exp` rather than having the tool invent a curve. Note that
+technology points live in `Players/<uid>.sav` and are not adjusted, so a player
+jumped several levels keeps the tech points they had earned.
 
 Item ids are the game's **internal** names (`AIcore`, `Thermal_Core`,
 `AncientParts2`), not display names. `inspect_save.py --contents` lists the ids
@@ -117,6 +131,7 @@ palworld/
 │   ├── palsave.py              # Save library: PlZ/PlM, GVAS, item slots
 │   ├── inspect_save.py         # List bases, chests and stored items
 │   ├── add_items.py            # Add items to a storage container
+│   ├── set_player_level.py     # Set player levels (and cumulative exp)
 │   └── requirements.txt        # pyooz + palworld-save-tools
 └── tests/
     ├── unit/                   # Unit tests (engine, solver, parser, loader)

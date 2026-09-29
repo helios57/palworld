@@ -372,6 +372,95 @@ def read_slots(entry: dict[str, Any]) -> list[ItemSlot]:
     return [decode_slot(raw_bytes(s["RawData"])) for s in container_slots(entry)]
 
 
+#: Player level cap in Palworld 1.0, and the cumulative Exp that reaches it.
+#: Cross-checked against paldb.gg and palworld.tools, and against real saves:
+#: a level-77 player sits between the table's level-77 and level-78 thresholds.
+PLAYER_MAX_LEVEL = 80
+PLAYER_EXP_AT_MAX_LEVEL = 45_859_908
+
+
+class PlayerRecord(NamedTuple):
+    """A player character in ``CharacterSaveParameterMap``."""
+
+    uid: str
+    nickname: str
+    level: int
+    exp: int
+    entry: dict[str, Any]   # the map entry, so the record can be written back
+
+
+def decode_character(blob: bytes) -> tuple[dict[str, Any], bytes]:
+    """Split a character ``RawData`` blob into (GVAS properties, opaque tail).
+
+    The blob is a property list followed by a few trailing bytes whose layout
+    changed in 1.0 (palworld-save-tools assumes the old length and raises
+    "EOF not reached"). Keeping the tail opaque sidesteps that entirely.
+    """
+    from palworld_save_tools.archive import FArchiveReader
+    from palworld_save_tools.paltypes import PALWORLD_TYPE_HINTS
+
+    _install_setproperty_support()
+    reader = FArchiveReader(blob, PALWORLD_TYPE_HINTS, {})
+    props = reader.properties_until_end()
+    return props, blob[reader.data.tell():]
+
+
+def encode_character(props: dict[str, Any], tail: bytes) -> bytes:
+    """Inverse of :func:`decode_character`."""
+    from palworld_save_tools.archive import FArchiveWriter
+
+    _install_setproperty_support()
+    writer = FArchiveWriter()
+    writer.properties(props)
+    return writer.bytes() + tail
+
+
+def save_parameter(props: dict[str, Any]) -> dict[str, Any]:
+    """The ``SaveParameter`` sub-properties of a decoded character."""
+    return props.get("SaveParameter", {}).get("value", {})
+
+
+def iter_players(gvas) -> Iterator[PlayerRecord]:
+    """Yield every player character in the world (pals are skipped)."""
+    for entry in world(gvas)["CharacterSaveParameterMap"]["value"]:
+        props, _tail = decode_character(raw_bytes(entry["value"]["RawData"]))
+        param = save_parameter(props)
+        if param.get("IsPlayer", {}).get("value") is not True:
+            continue
+        yield PlayerRecord(
+            uid=str(entry["key"]["PlayerUId"]["value"]),
+            nickname=param.get("NickName", {}).get("value", ""),
+            # Level is a ByteProperty: {"value": {"type": ..., "value": int}}
+            level=param.get("Level", {}).get("value", {}).get("value"),
+            exp=param.get("Exp", {}).get("value"),
+            entry=entry,
+        )
+
+
+def set_player_level(record: PlayerRecord, level: int, exp: int) -> None:
+    """Set a player's Level and cumulative Exp in place.
+
+    Both fields are fixed width (ByteProperty and Int64Property), so the
+    record's byte length is unchanged and no enclosing sizes shift.
+
+    Exp must match the level: the game stores a cumulative total, and a value
+    below the level's threshold can be recalculated back down in play.
+    """
+    if not 1 <= level <= 255:
+        raise ValueError(f"level must fit in a byte, got {level}")
+    if exp < 0:
+        raise ValueError(f"exp must not be negative, got {exp}")
+
+    node = record.entry["value"]["RawData"]
+    props, tail = decode_character(raw_bytes(node))
+    param = save_parameter(props)
+    if param.get("IsPlayer", {}).get("value") is not True:
+        raise ValueError(f"{record.nickname or record.uid} is not a player character")
+    param["Level"]["value"]["value"] = level
+    param["Exp"]["value"] = exp
+    set_raw_bytes(node, encode_character(props, tail))
+
+
 class Addition(NamedTuple):
     """One planned new stack: which free slot, which item, how many."""
 

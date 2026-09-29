@@ -32,6 +32,7 @@ jobs:
       # the CLIs must at least import and present their interface
       - run: python tools/inspect_save.py --help
       - run: python tools/add_items.py --help
+      - run: python tools/set_player_level.py --help
       - run: python tools/extract_pals.py --help
 
   e2e:
